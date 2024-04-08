@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="50.00000000"/>
+      <flags value="537001984" />
+      <loadFlags value="537001984" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.0934713" y="-0.105725676" z="-0.5951362" />
+      <bbMax x="0.117559664" y="0.1135379" z="0.20004009" />
+      <bsCentre x="0.01204418" y="0.0039061122" z="-0.19754806" />
+      <bsRadius value="0.42570996" />
+      <hdTextureDist value="60.0"/>
+      <name>pineapple</name>
+      <textureDictionary>pineapple_ytd</textureDictionary>
+      <physicsDictionary>pineapple</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>pineapple</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>pineapple_ytyp</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

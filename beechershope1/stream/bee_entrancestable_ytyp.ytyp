@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="299"/>
+      <flags value="0" />
+      <loadFlags value="0x0000000000000000" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.7011375" y="-3.0421624" z="-4.088469" />
+      <bbMax x="3.7554016" y="3.082838" z="1.5379963" />
+      <bsCentre x="0.027132034" y="0.02033782" z="-1.2752364" />
+      <bsRadius value="5.5850854" />
+      <hdTextureDist value="60.0"/>
+      <name>bee_entrancestable</name>
+      <textureDictionary>bee_entrancestable_ytd</textureDictionary>
+      <physicsDictionary>bee_entrancestable</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_entrancestable</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>bee_entrancestable_ytyp</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

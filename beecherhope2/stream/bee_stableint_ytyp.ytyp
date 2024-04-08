@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="299"/>
+      <flags value="0" />
+      <loadFlags value="0x0000000000000000" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.6166196" y="-5.923046" z="-3.3606205" />
+      <bbMax x="4.6481566" y="5.992878" z="5.5070195" />
+      <bsCentre x="0.015768528" y="0.034915924" z="1.0731995" />
+      <bsRadius value="8.753004" />
+      <hdTextureDist value="60.0"/>
+      <name>bee_stableint</name>
+      <textureDictionary>bee_stableint_ytd</textureDictionary>
+      <physicsDictionary>bee_stableint</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_stableint</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>bee_stableint_ytyp</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

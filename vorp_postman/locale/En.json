@@ -1,0 +1,11 @@
+﻿{
+  "PressToStart": "Trykk  [~e~Space~q~] for jobb",
+  "PressToStop": "Trykk [~e~Space~q~] for å avslutte",
+  "VehicleBlip": "Jobb vogn",
+  "ReturnToOffice": "Du er ferdig, returner til post-huset! ",
+  "DriveTo": "Kjør til {0} og lever pakken",
+  "DeliverIn": "Levere pakken innen {0}",
+  "KeyTo": "[ENTER]",
+  "PickPackage": "Ta denne pakken",
+  "YouReceive": "Du fikk {0}$ og  {1}Xp"
+}

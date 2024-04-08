@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="50.00000000"/>
+      <flags value="537001984" />
+      <loadFlags value="537001984" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.883509" y="-5.2002134" z="-1.0451623" />
+      <bbMax x="6.435924" y="6.8958077" z="1.9969615" />
+      <bsCentre x="0.27620745" y="0.84779716" z="0.47589958" />
+      <bsRadius value="8.765511" />
+      <hdTextureDist value="60.0"/>
+      <name>icecreamparlor</name>
+      <textureDictionary>icecreamparlor_ytd</textureDictionary>
+      <physicsDictionary>icecreamparlor</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>icecreamparlor</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>icecreamparlor_ytyp</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

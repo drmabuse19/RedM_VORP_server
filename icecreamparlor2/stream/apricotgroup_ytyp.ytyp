@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="50.00000000"/>
+      <flags value="537001984" />
+      <loadFlags value="537001984" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.10400861" y="-0.07923968" z="-0.10138813" />
+      <bbMax x="0.092653856" y="0.08683258" z="0.09092324" />
+      <bsCentre x="-0.005677376" y="0.0037964508" z="-0.005232442" />
+      <bsRadius value="0.16065474" />
+      <hdTextureDist value="60.0"/>
+      <name>apricotgroup</name>
+      <textureDictionary>apricot_ytd</textureDictionary>
+      <physicsDictionary>apricotgroup</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>apricotgroup</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>apricotgroup_ytyp</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

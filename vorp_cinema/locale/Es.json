@@ -1,0 +1,7 @@
+﻿{
+  "PressToAccess": "Pulsa [~e~Enter~q~] para acceder al cine",
+  "PressToExit": "Pulsa [~e~Enter~q~] para salir del cine",
+  "AnnounceMovie": "{0}: ¡La película {1} va a comenzar en {2} minutos!",
+  "NoMoney": "No tienes suficiente dinero, el precio de la entrada es de {0}$",
+  "Welcome": "¡Bienvenido al {0}!"
+}

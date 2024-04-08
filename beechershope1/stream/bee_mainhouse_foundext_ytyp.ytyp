@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="299"/>
+      <flags value="0" />
+      <loadFlags value="0x0000000000000000" />
+      <specialAttribute value="0" />
+      <bbMin x="-12.719387" y="-10.993742" z="-2.82767" />
+      <bbMax x="10.156687" y="17.04873" z="2.6048534" />
+      <bsCentre x="-1.2813501" y="3.0274944" z="-0.11140835" />
+      <bsRadius value="18.297592" />
+      <hdTextureDist value="60.0"/>
+      <name>bee_mainhouse_foundext</name>
+      <textureDictionary>bee_mainhouse_ext_ytd</textureDictionary>
+      <physicsDictionary>bee_mainhouse_foundext</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_mainhouse_foundext</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>bee_mainhouse_foundext_ytyp</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

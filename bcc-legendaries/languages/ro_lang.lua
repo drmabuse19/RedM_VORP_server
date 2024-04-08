@@ -1,0 +1,22 @@
+Locales["ro_lang"] = {
+    Deadtext = 'Ai murit, vanatoarea a esuat',
+    Cluefound = 'Ai gasit un indiciu care indica locatia animalelor',
+    Initialblipmark = 'Ultima locatie cunoscuta a animalului a fost marcata',
+    Poachersattack = 'Atentie! Braconierii ataca!',
+    Cooldownactive = 'Nu am nimic de oferit, revino mai tarziu',
+    Lastlocationblip = 'Ultima Locatie',
+    Poachersdead = 'I-ai ucis pe braconieri, acum cauta in jur pentru orice indicii',
+    Poacherschestblip = 'Cufarul Braconierilor',
+    ChestPrompt = 'Cauta in cufar',
+    ClueBlip = 'Indiciu',
+    Menuname = "Vanatori Legendari",
+    Hunterblip = "Vanator",
+    Shoptext = 'Apasa "G" pentru a vedea ce ofera vanatorul',
+    LegAnimalSpawned = 'Animalul este in apropiere!',
+    AnimalSkinned = 'Ai jupuit animalul si ai obtinut blana sa!',
+    Leveldisp = 'Nivelul tau Curent',
+    Nolevel = 'Nu ai suficienta experienta pentru a vorbi cu mine',
+    AlreadyInMission = 'Deja participi la o vanatoare!',
+    WebhookTitle = 'Bcc-Legendare',
+    WebhookDesc = 'A inceput vanatoarea'
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="50.00000000"/>
+      <flags value="537001984" />
+      <loadFlags value="537001984" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.07444757" y="-0.038930275" z="-0.036588762" />
+      <bbMax x="0.07941432" y="0.032982703" z="0.03784824" />
+      <bsCentre x="0.0024833754" y="-0.0029737856" z="0.00062973984" />
+      <bsRadius value="0.09271708" />
+      <hdTextureDist value="60.0"/>
+      <name>lychee</name>
+      <textureDictionary>lychee_ytd</textureDictionary>
+      <physicsDictionary>lychee</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>lychee</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>lychee_ytyp</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="299"/>
+      <flags value="0" />
+      <loadFlags value="0x0000000000000000" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.9805362" y="-6.1735077" z="-3.3111002" />
+      <bbMax x="4.0010796" y="6.017894" z="7.0355787" />
+      <bsCentre x="0.010271668" y="-0.07780695" z="1.8622392" />
+      <bsRadius value="8.935746" />
+      <hdTextureDist value="60.0"/>
+      <name>bla_house1int</name>
+      <textureDictionary>bla_house1int_ytd</textureDictionary>
+      <physicsDictionary>bla_house1int</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bla_house1int</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>bla_house1int_ytyp</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

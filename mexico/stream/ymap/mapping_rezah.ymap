@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<CMapData>
+    <flags value="2"/>
+    <contentFlags value="65"/>
+    <streamingExtentsMin x="2319.814453" y="-1714.962769" z="-354.407665"/>
+    <streamingExtentsMax x="3175.539795" y="-723.977539" z="448.587353"/>
+    <entitiesExtentsMin x="2719.814453" y="-1314.962769" z="45.592335"/>
+    <entitiesExtentsMax x="2775.539795" y="-1123.977539" z="48.587353"/>
+    <entities>
+        <Item type="CEntityDef">
+            <archetypeName>s_inv_whiskey02x</archetypeName>
+            <flags value="1572897"/>
+            <position x="2775.539795" y="-1314.962769" z="45.592335"/>
+            <rotation w="0.407761" x="0.000000" y="-0.000000" z="-0.913089"/>
+            <scaleXY value="1"/>
+            <scaleZ value="1"/>
+            <parentIndex value="-1"/>
+            <lodDist value="500"/>
+            <childLodDist value="500"/>
+            <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+            <numChildren value="0"/>
+            <ambientOcclusionMultiplier value="255"/>
+            <artificialAmbientOcclusion value="255"/>
+        </Item>
+        <Item type="CEntityDef">
+            <archetypeName>p_still02x</archetypeName>
+            <flags value="1572897"/>
+            <position x="2719.874756" y="-1123.977539" z="48.587353"/>
+            <rotation w="0.678794" x="0.000000" y="-0.000000" z="-0.734329"/>
+            <scaleXY value="1"/>
+            <scaleZ value="1"/>
+            <parentIndex value="-1"/>
+            <lodDist value="500"/>
+            <childLodDist value="500"/>
+            <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+            <numChildren value="0"/>
+            <ambientOcclusionMultiplier value="255"/>
+            <artificialAmbientOcclusion value="255"/>
+        </Item>
+        <Item type="CEntityDef">
+            <archetypeName>p_veh_moonshinesupplies01x</archetypeName>
+            <flags value="1572897"/>
+            <position x="2719.814453" y="-1125.815308" z="48.319580"/>
+            <rotation w="0.688681" x="0.000000" y="-0.000000" z="-0.725065"/>
+            <scaleXY value="1"/>
+            <scaleZ value="1"/>
+            <parentIndex value="-1"/>
+            <lodDist value="500"/>
+            <childLodDist value="500"/>
+            <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+            <numChildren value="0"/>
+            <ambientOcclusionMultiplier value="255"/>
+            <artificialAmbientOcclusion value="255"/>
+        </Item>
+    </entities>
+</CMapData>

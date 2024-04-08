@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="50.00000000"/>
+      <flags value="537001984" />
+      <loadFlags value="537001984" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.081149444" y="-0.080834515" z="-0.07650186" />
+      <bbMax x="0.08108105" y="0.079237476" z="0.08649028" />
+      <bsCentre x="-3.4198165e-05" y="-0.0007985197" z="0.00499421" />
+      <bsRadius value="0.14009659" />
+      <hdTextureDist value="60.0"/>
+      <name>pomegranatewhole</name>
+      <textureDictionary>pomegranatewhole_ytd</textureDictionary>
+      <physicsDictionary>pomegranatewhole</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>pomegranatewhole</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>pomegranatewhole_ytyp</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

@@ -1,0 +1,275 @@
+#main {
+  height: 550px;
+  position: relative;
+  text-align: center;
+  top: 5%;
+  width: 80%;
+  margin: auto;
+}
+
+#notification h4 {
+  font-weight: normal;
+  margin: 0;
+  color: white !important;
+}
+
+.page-title {
+  margin-bottom: 10%;
+}
+
+.noselect {
+  user-select: none;
+}
+
+/* ------------------------------------------------------------- */
+
+.recent-reports {
+  top: 25%;
+  position: fixed; 
+  float: unset; 
+  padding-left: 5%;
+  float: left;
+  width: 30%;
+  overflow-y: auto;
+  margin-left: 5%;
+  height: auto;
+  text-align: left;
+  user-select: none;
+}
+
+.recent-citizen-searches {
+  position: fixed; 
+  top: 65%; 
+  padding-left: 5%;
+  float: left;
+  width: 30%;
+  overflow-y: auto;
+  margin-left: 5%;
+  height: auto;
+  text-align: left;
+  user-select: none;
+}
+
+.recent-warrants {
+  top: 25%;
+  position: fixed; 
+  float: unset; 
+  left: 62%;
+  padding-right: 5%;
+  right: 10%;
+  width: 30%;
+  overflow-y: auto;
+  height: auto;
+  text-align: left;
+  user-select: none;
+}
+
+.search-reports {
+  position: fixed;
+  top: 30%;
+  padding-left: 5%;
+  float: left;
+  max-width: 50%;
+  max-height: auto;
+  overflow-y: auto;
+  margin-left: 5%;
+  height: auto;
+  text-align: left;
+  user-select: none;
+}
+
+.search-reports-results {
+  position: fixed;
+  top: 30%;
+  left: 65%;
+  width: 30%;
+  padding-right: 5%;
+  overflow-y: auto;
+  height: auto;
+  text-align: left;
+  user-select: none;
+}
+
+.submit-report {
+  position:fixed; 
+  top: 25%; 
+  padding-left: 5%;
+  float: left;
+  max-width: 50%;
+  overflow-y: auto;
+  margin-left: 5%;
+  height: auto;
+  text-align: left;
+  user-select: none;
+}
+
+.search-offender {
+  position: fixed; 
+  top: 25%;
+  padding-right: 5%;
+  left: 65%;
+  right: 10%;
+  width: 30%;
+  max-width: 300%;
+  overflow-y: auto;
+  height: auto;
+  text-align: left;
+  user-select: none;
+}
+
+.search-offenders {
+  position: fixed; 
+  top: 30%;
+  padding-left: 5%;
+  float: left;
+  max-width: 50%;
+  overflow-y: auto;
+  margin-left: 5%;
+  height: auto;
+  text-align: left;
+  user-select: none;
+}
+
+.search-offenders-result {
+  position: fixed;
+  top: 30%;
+  left: 60%;
+  width: 30%;
+  overflow-y: auto;
+  height: auto;
+  text-align: left;
+  user-select: none;
+}
+
+.report-details {
+  position: fixed; 
+  top: 30%;
+
+  float: unset;
+  margin: 0 auto; 
+  padding-left: 5%;
+  float: left;
+  max-width: 50%;
+  overflow-y: auto;
+  margin-left: 5%;
+  height: auto;
+  text-align: left;
+  user-select: none;
+}
+
+.new-warrant {
+  position: fixed; 
+  float: none; 
+  top: 25%; 
+  padding-left: 5%;
+  float: left;
+  max-width: 50%;
+  overflow-y: auto;
+  margin-left: 5%;
+  height: auto;
+  text-align: left;
+  user-select: none;
+}
+
+.new-warrant-results {
+  top: 25%;
+  padding-right: 5%;
+  position: fixed;
+  left: 65%;
+  right: 10%;
+  width: 30%;
+  overflow-y: auto;
+  height: auto;
+  text-align: left;
+  user-select: none;
+}
+
+.warrant-details {
+
+  float: unset; 
+  margin: 0 auto;
+  padding-left: 5%;
+  float: left;
+  max-width: 50%;
+  overflow-y: auto;
+  margin-left: 5%;
+  height: auto;
+  text-align: left;
+  user-select: none;
+}
+
+.active-warrants-bottom {
+  padding-top: 5%;
+  padding-left: 12%;
+  max-width: 50%; 
+  float: unset; 
+  margin: 0 auto;
+}
+
+/* ------------------------------------------------------------- */
+.modal {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  border-radius: 5px;
+}
+.nav-active {
+  color: #ffbb24;
+}
+
+.ellipsis {
+  position: relative;
+  width: 200px;
+}
+.ellipsis:before {
+  content: "&nbsp;";
+  visibility: hidden;
+  width: 200px;
+}
+.ellipsis span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0 10px;
+  width: 200px;
+}
+.remove {
+  color: red;
+  font-weight: all;
+}
+br {
+  user-select: none;
+}
+p {
+  font-family: 'Western', sans-serif;
+  color: #000000;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+input:focus {
+  outline: none;
+}
+button:focus {
+  outline: none;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 5px;
+}

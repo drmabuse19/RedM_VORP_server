@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="50.00000000"/>
+      <flags value="537001984" />
+      <loadFlags value="537001984" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.08395813" y="-0.09648195" z="-0.019078573" />
+      <bbMax x="0.12064656" y="0.07893103" z="0.04097098" />
+      <bsCentre x="0.018344216" y="-0.008775458" z="0.010946204" />
+      <bsRadius value="0.13805681" />
+      <hdTextureDist value="60.0"/>
+      <name>hazelnuts</name>
+      <textureDictionary>hazelnuts_ytd</textureDictionary>
+      <physicsDictionary>hazelnuts</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>hazelnuts</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>hazelnuts_ytyp</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

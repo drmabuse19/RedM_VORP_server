@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Map>
+	<MapMeta Creator="**Invalid**"/>
+	<Object Hash="-987417712" Position_x="1112.2744140625" Position_y="-7075.9580078125" Position_z="47.632015228271" Rotation_x="-5.4160265922546" Rotation_y="-0.471882969141" Rotation_z="6.0269622802734" Collision="true" Visible="true"/>
+	<Object Hash="-987417712" Position_x="1130.5589599609" Position_y="-7096.2109375" Position_z="45.020000457764" Rotation_x="22.0" Rotation_y="-4.9701924324036" Rotation_z="88.230674743652" Collision="true" Visible="true"/>
+	<Object Hash="-987417712" Position_x="1128.7663574219" Position_y="-7107.4736328125" Position_z="46.878925323486" Rotation_x="6.8294944763183" Rotation_y="13.894101142883" Rotation_z="74.605659484863" Collision="true" Visible="true"/>
+	<Object Hash="-987417712" Position_x="1134.7596435547" Position_y="-7110.6059570313" Position_z="45.400001525879" Rotation_x="0.0" Rotation_y="0.0" Rotation_z="11.025394439697" Collision="true" Visible="true"/>
+	<Object Hash="-987417712" Position_x="1116.6781005859" Position_y="-7084.2670898438" Position_z="47.638214111328" Rotation_x="0.0" Rotation_y="0.0" Rotation_z="74.198699951172" Collision="true" Visible="true"/>
+	<Object Hash="-987417712" Position_x="1105.7017822266" Position_y="-7083.2172851563" Position_z="48.657108306885" Rotation_x="0.0" Rotation_y="0.0" Rotation_z="62.266174316406" Collision="true" Visible="true"/>
+	<Object Hash="-987417712" Position_x="1134.7803955078" Position_y="-7099.1782226563" Position_z="44.930000305176" Rotation_x="6.0000004768372" Rotation_y="0.0" Rotation_z="94.774932861328" Collision="true" Visible="true"/>
+	<Object Hash="-987417712" Position_x="1119.9226074219" Position_y="-7099.5810546875" Position_z="48.053829193115" Rotation_x="6.6543922424316" Rotation_y="14.069499015808" Rotation_z="71.097785949707" Collision="true" Visible="true"/>
+	<Object Hash="-987417712" Position_x="1124.5245361328" Position_y="-7103.001953125" Position_z="47.600219726563" Rotation_x="3.4240293502808" Rotation_y="-6.5556359291077" Rotation_z="29.391927719116" Collision="true" Visible="true"/>
+	<Object Hash="-987417712" Position_x="1137.4200439453" Position_y="-7101.5126953125" Position_z="45.590339660645" Rotation_x="0.0" Rotation_y="0.0" Rotation_z="-5.5299496650696" Collision="true" Visible="true"/>
+	<Object Hash="-987417712" Position_x="1104.6934814453" Position_y="-7087.095703125" Position_z="48.561065673828" Rotation_x="0.0" Rotation_y="0.0" Rotation_z="35.364055633545" Collision="true" Visible="true"/>
+	<Object Hash="-987417712" Position_x="1118.8361816406" Position_y="-7087.314453125" Position_z="47.492340087891" Rotation_x="0.0" Rotation_y="0.0" Rotation_z="32.555767059326" Collision="true" Visible="true"/>
+	<Object Hash="-987417712" Position_x="1114.8922119141" Position_y="-7080.6840820313" Position_z="47.67435836792" Rotation_x="0.0" Rotation_y="0.0" Rotation_z="-0.44475400447845" Collision="true" Visible="true"/>
+	<Object Hash="-987417712" Position_x="1126.7995605469" Position_y="-7092.7177734375" Position_z="46.491798400879" Rotation_x="0.0" Rotation_y="0.0" Rotation_z="-7.9240937232971" Collision="true" Visible="true"/>
+	<Object Hash="-987417712" Position_x="1122.138671875" Position_y="-7089.8388671875" Position_z="47.249801635742" Rotation_x="0.0" Rotation_y="0.0" Rotation_z="57.07368850708" Collision="true" Visible="true"/>
+	<Object Hash="-987417712" Position_x="1112.6943359375" Position_y="-7093.7739257813" Position_z="48.345687866211" Rotation_x="1.5028926134109" Rotation_y="-6.1042184829712" Rotation_z="79.631500244141" Collision="true" Visible="true"/>
+	<Object Hash="-987417712" Position_x="1107.6756591797" Position_y="-7090.2299804688" Position_z="48.582057952881" Rotation_x="5.8517050743103" Rotation_y="-0.359812438488" Rotation_z="83.919570922852" Collision="true" Visible="true"/>
+	<Object Hash="-987417712" Position_x="1116.2805175781" Position_y="-7096.4970703125" Position_z="48.231021881104" Rotation_x="-3.2924001216888" Rotation_y="6.2107644081116" Rotation_z="34.937759399414" Collision="true" Visible="true"/>
+</Map>

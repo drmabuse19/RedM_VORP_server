@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<CMapData>
+	<flags value="2"/>
+	<contentFlags value="65"/>
+	<streamingExtentsMin x="82.208557" y="1330.151001" z="-270.354263"/>
+	<streamingExtentsMax x="883.553802" y="2138.482666" z="532.796768"/>
+	<entitiesExtentsMin x="482.208557" y="1730.151001" z="129.645737"/>
+	<entitiesExtentsMax x="483.553802" y="1738.482666" z="132.796768"/>
+	<entities>
+		<Item type="CEntityDef">
+			<archetypeName>bra_boathousedock</archetypeName>
+			<flags value="1572897"/>
+			<position x="482.208557" y="1730.151001" z="129.645737"/>
+			<rotation w="0.053983" x="-0.000000" y="0.000000" z="0.998542"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>bra_boathousedockrain</archetypeName>
+			<flags value="1572897"/>
+			<position x="482.208557" y="1730.151001" z="129.645737"/>
+			<rotation w="0.053983" x="-0.000000" y="0.000000" z="0.998542"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>bra_boathouse</archetypeName>
+			<flags value="1572897"/>
+			<position x="483.553802" y="1738.482666" z="132.796768"/>
+			<rotation w="0.053983" x="-0.000000" y="0.000000" z="0.998542"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>bra_boathouserain</archetypeName>
+			<flags value="1572897"/>
+			<position x="483.553802" y="1738.482666" z="132.796768"/>
+			<rotation w="0.053983" x="-0.000000" y="0.000000" z="0.998542"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+	</entities>
+</CMapData>

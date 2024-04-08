@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="299"/>
+      <flags value="0" />
+      <loadFlags value="0x0000000000000000" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.9132833" y="-5.5190187" z="-2.965074" />
+      <bbMax x="8.800059" y="5.9449396" z="2.9563794" />
+      <bsCentre x="1.943388" y="0.21296048" z="-0.0043473244" />
+      <bsRadius value="9.414639" />
+      <hdTextureDist value="60.0"/>
+      <name>willardint</name>
+      <textureDictionary>willardint_ytd</textureDictionary>
+      <physicsDictionary>willardint</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>willardint</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>willardint_ytyp</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<CMapData>
+	<flags value="2"/>
+	<contentFlags value="65"/>
+	<streamingExtentsMin x="2290.996826" y="1775.757690" z="-353.459995"/>
+	<streamingExtentsMax x="3091.208984" y="-975.518799" z="446.834412"/>
+	<entitiesExtentsMin x="2691.062012" y="-1376.000122" z="45.787861"/>
+	<entitiesExtentsMax x="2691.208984" y="-1375.518799" z="46.834412"/>
+	<entities>
+		<Item type="CEntityDef">
+			<archetypeName>icecreamcart_model</archetypeName>
+			<flags value="1572897"/>
+			<position x="2691.208984" y="-1375.757690" z="46.540005"/>
+			<rotation w="0.933279" x="-0.024439" y="-0.009380" z="-0.358197"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>icecreamcartlids_model</archetypeName>
+			<flags value="1572897"/>
+			<position x="2690.996826" y="-1375.518799" z="46.834412"/>
+			<rotation w="0.934425" x="-0.024469" y="-0.009301" z="-0.355196"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+	</entities>
+</CMapData>

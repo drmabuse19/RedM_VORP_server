@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="50.00000000"/>
+      <flags value="537001984" />
+      <loadFlags value="537001984" />
+      <specialAttribute value="0" />
+     <bbMin x="-0.14170676" y="-0.24200891" z="-0.14165494" />
+      <bbMax x="0.14698952" y="0.13035017" z="0.141296" />
+      <bsCentre x="0.0026413798" y="-0.05582937" z="-0.00017946959" />
+      <bsRadius value="0.27479905" />
+      <hdTextureDist value="60.0"/>
+      <name>coconut</name>
+      <textureDictionary>coconut_ytd</textureDictionary>
+      <physicsDictionary>coconut</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>coconut</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>coconut_ytyp</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

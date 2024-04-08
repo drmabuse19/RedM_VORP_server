@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="50.00000000"/>
+      <flags value="537001984" />
+      <loadFlags value="537001984" />
+      <specialAttribute value="0" />
+      <bbMin x="-15.112599" y="-22.869894" z="-11.178287" />
+      <bbMax x="15.080837" y="22.243416" z="11.256667" />
+      <bsCentre x="-0.015881062" y="-0.3132391" z="0.039190292" />
+      <bsRadius value="29.369123" />
+      <hdTextureDist value="60.0"/>
+      <name>circusinterior</name>
+      <textureDictionary>circusinterior_ytd</textureDictionary>
+      <physicsDictionary>circusinterior</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>circusinterior</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>circusinterior_ytyp</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

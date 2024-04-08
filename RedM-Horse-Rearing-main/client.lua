@@ -1,0 +1,180 @@
+local command = "rear"
+
+RegisterCommand(command, function()
+    local playerPed = PlayerPedId()
+    local playerHorse = GetMount(playerPed)
+
+    if DoesEntityExist(playerHorse) then
+        local horseModelHashes = {
+            GetHashKey("a_c_horse_americanpaint_greyovero"),
+	GetHashKey("a_c_horse_americanpaint_overo"),
+	GetHashKey("a_c_horse_americanpaint_splashedwhite"),
+	GetHashKey("a_c_horse_americanpaint_tobiano"),
+	GetHashKey("a_c_horse_americanstandardbred_black"),
+	GetHashKey("a_c_horse_americanstandardbred_buckskin"),
+	GetHashKey("a_c_horse_americanstandardbred_lightbuckskin"),
+	GetHashKey("a_c_horse_americanstandardbred_palominodapple"),
+	GetHashKey("a_c_horse_americanstandardbred_silvertailbuckskin"),
+	GetHashKey("a_c_horse_andalusian_darkbay"),
+	GetHashKey("a_c_horse_andalusian_perlino"),
+	GetHashKey("a_c_horse_andalusian_rosegray"),
+	GetHashKey("a_c_horse_appaloosa_blacksnowflake"),
+	GetHashKey("a_c_horse_appaloosa_blanket"),
+	GetHashKey("a_c_horse_appaloosa_brownleopard"),
+	GetHashKey("a_c_horse_appaloosa_fewspotted_pc"),
+	GetHashKey("a_c_horse_appaloosa_leopard"),
+	GetHashKey("a_c_horse_appaloosa_leopardblanket"),
+	GetHashKey("a_c_horse_arabian_black"),
+	GetHashKey("a_c_horse_arabian_grey"),
+	GetHashKey("a_c_horse_arabian_redchestnut"),
+	GetHashKey("a_c_horse_arabian_redchestnut_pc"),
+	GetHashKey("a_c_horse_arabian_rosegreybay"),
+	GetHashKey("a_c_horse_arabian_warpedbrindle_pc"),
+	GetHashKey("a_c_horse_arabian_white"),
+	GetHashKey("a_c_horse_ardennes_bayroan"),
+	GetHashKey("a_c_horse_ardennes_irongreyroan"),
+	GetHashKey("a_c_horse_ardennes_strawberryroan"),
+	GetHashKey("a_c_horse_belgian_blondchestnut"),
+	GetHashKey("a_c_horse_belgian_mealychestnut"),
+	GetHashKey("a_c_horse_breton_grullodun"),
+	GetHashKey("a_c_horse_breton_mealydapplebay"),
+	GetHashKey("a_c_horse_breton_redroan"),
+	GetHashKey("a_c_horse_breton_sealbrown"),
+	GetHashKey("a_c_horse_breton_sorrel"),
+	GetHashKey("a_c_horse_breton_steelgrey"),
+	GetHashKey("a_c_horse_buell_warvets"),
+	GetHashKey("a_c_horse_criollo_baybrindle"),
+	GetHashKey("a_c_horse_criollo_bayframeovero"),
+	GetHashKey("a_c_horse_criollo_blueroanovero"),
+	GetHashKey("a_c_horse_criollo_dun"),
+	GetHashKey("a_c_horse_criollo_marblesabino"),
+	GetHashKey("a_c_horse_criollo_sorrelovero"),
+	GetHashKey("a_c_horse_dutchwarmblood_chocolateroan"),
+	GetHashKey("a_c_horse_dutchwarmblood_sealbrown"),
+	GetHashKey("a_c_horse_dutchwarmblood_sootybuckskin"),
+	GetHashKey("a_c_horse_eagleflies"),
+	GetHashKey("a_c_horse_gang_bill"),
+	GetHashKey("a_c_horse_gang_charles"),
+	GetHashKey("a_c_horse_gang_charles_endlesssummer"),
+	GetHashKey("a_c_horse_gang_dutch"),
+	GetHashKey("a_c_horse_gang_hosea"),
+	GetHashKey("a_c_horse_gang_javier"),
+	GetHashKey("a_c_horse_gang_john"),
+	GetHashKey("a_c_horse_gang_karen"),
+	GetHashKey("a_c_horse_gang_kieran"),
+	GetHashKey("a_c_horse_gang_lenny"),
+	GetHashKey("a_c_horse_gang_micah"),
+	GetHashKey("a_c_horse_gang_sadie"),
+	GetHashKey("a_c_horse_gang_sadie_endlesssummer"),
+	GetHashKey("a_c_horse_gang_sean"),
+	GetHashKey("a_c_horse_gang_trelawney"),
+	GetHashKey("a_c_horse_gang_uncle"),
+	GetHashKey("a_c_horse_gang_uncle_endlesssummer"),
+	GetHashKey("a_c_horse_gypsycob_palominoblagdon"),
+	GetHashKey("a_c_horse_gypsycob_piebald"),
+	GetHashKey("a_c_horse_gypsycob_skewbald"),
+	GetHashKey("a_c_horse_gypsycob_splashedbay"),
+	GetHashKey("a_c_horse_gypsycob_splashedpiebald"),
+	GetHashKey("a_c_horse_gypsycob_whiteblagdon"),
+	GetHashKey("a_c_horse_hungarianhalfbred_darkdapplegrey"),
+	GetHashKey("a_c_horse_hungarianhalfbred_flaxenchestnut"),
+	GetHashKey("a_c_horse_hungarianhalfbred_liverchestnut"),
+	GetHashKey("a_c_horse_hungarianhalfbred_piebaldtobiano"),
+	GetHashKey("a_c_horse_john_endlesssummer"),
+	GetHashKey("a_c_horse_kentuckysaddle_black"),
+	GetHashKey("a_c_horse_kentuckysaddle_buttermilkbuckskin_pc"),
+	GetHashKey("a_c_horse_kentuckysaddle_chestnutpinto"),
+	GetHashKey("a_c_horse_kentuckysaddle_grey"),
+	GetHashKey("a_c_horse_kentuckysaddle_silverbay"),
+	GetHashKey("a_c_horse_kladruber_black"),
+	GetHashKey("a_c_horse_kladruber_cremello"),
+	GetHashKey("a_c_horse_kladruber_dapplerosegrey"),
+	GetHashKey("a_c_horse_kladruber_grey"),
+	GetHashKey("a_c_horse_kladruber_silver"),
+	GetHashKey("a_c_horse_kladruber_white"),
+	GetHashKey("a_c_horse_missourifoxtrotter_amberchampagne"),
+	GetHashKey("a_c_horse_missourifoxtrotter_blacktovero"),
+	GetHashKey("a_c_horse_missourifoxtrotter_blueroan"),
+	GetHashKey("a_c_horse_missourifoxtrotter_buckskinbrindle"),
+	GetHashKey("a_c_horse_missourifoxtrotter_dapplegrey"),
+	GetHashKey("a_c_horse_missourifoxtrotter_sablechampagne"),
+	GetHashKey("a_c_horse_missourifoxtrotter_silverdapplepinto"),
+	GetHashKey("a_c_horse_morgan_bay"),
+	GetHashKey("a_c_horse_morgan_bayroan"),
+	GetHashKey("a_c_horse_morgan_flaxenchestnut"),
+	GetHashKey("a_c_horse_morgan_liverchestnut_pc"),
+	GetHashKey("a_c_horse_morgan_palomino"),
+	GetHashKey("a_c_horse_mp_mangy_backup"),
+	GetHashKey("a_c_horse_murfreebrood_mange_01"),
+	GetHashKey("a_c_horse_murfreebrood_mange_02"),
+	GetHashKey("a_c_horse_murfreebrood_mange_03"),
+	GetHashKey("a_c_horse_mustang_blackovero"),
+	GetHashKey("a_c_horse_mustang_buckskin"),
+	GetHashKey("a_c_horse_mustang_chestnuttovero"),
+	GetHashKey("a_c_horse_mustang_goldendun"),
+	GetHashKey("a_c_horse_mustang_grullodun"),
+	GetHashKey("a_c_horse_mustang_reddunovero"),
+	GetHashKey("a_c_horse_mustang_tigerstripedbay"),
+	GetHashKey("a_c_horse_mustang_wildbay"),
+	GetHashKey("a_c_horse_nokota_blueroan"),
+	GetHashKey("a_c_horse_nokota_reversedappleroan"),
+	GetHashKey("a_c_horse_nokota_whiteroan"),
+	GetHashKey("a_c_horse_norfolkroadster_black"),
+	GetHashKey("a_c_horse_norfolkroadster_dappledbuckskin"),
+	GetHashKey("a_c_horse_norfolkroadster_piebaldroan"),
+	GetHashKey("a_c_horse_norfolkroadster_rosegrey"),
+	GetHashKey("a_c_horse_norfolkroadster_speckledgrey"),
+	GetHashKey("a_c_horse_norfolkroadster_spottedtricolor"),
+	GetHashKey("a_c_horse_shire_darkbay"),
+	GetHashKey("a_c_horse_shire_lightgrey"),
+	GetHashKey("a_c_horse_shire_ravenblack"),
+	GetHashKey("a_c_horse_suffolkpunch_redchestnut"),
+	GetHashKey("a_c_horse_suffolkpunch_sorrel"),
+	GetHashKey("a_c_horse_tennesseewalker_blackrabicano"),
+	GetHashKey("a_c_horse_tennesseewalker_chestnut"),
+	GetHashKey("a_c_horse_tennesseewalker_dapplebay"),
+	GetHashKey("a_c_horse_tennesseewalker_flaxenroan"),
+	GetHashKey("a_c_horse_tennesseewalker_goldpalomino_pc"),
+	GetHashKey("a_c_horse_tennesseewalker_mahoganybay"),
+	GetHashKey("a_c_horse_tennesseewalker_redroan"),
+	GetHashKey("a_c_horse_thoroughbred_blackchestnut"),
+	GetHashKey("a_c_horse_thoroughbred_bloodbay"),
+	GetHashKey("a_c_horse_thoroughbred_brindle"),
+	GetHashKey("a_c_horse_thoroughbred_dapplegrey"),
+	GetHashKey("a_c_horse_thoroughbred_reversedappleblack"),
+	GetHashKey("a_c_horse_turkoman_black"),
+	GetHashKey("a_c_horse_turkoman_chestnut"),
+	GetHashKey("a_c_horse_turkoman_darkbay"),
+	GetHashKey("a_c_horse_turkoman_gold"),
+	GetHashKey("a_c_horse_turkoman_grey"),
+	GetHashKey("a_c_horse_turkoman_perlino"),
+	GetHashKey("a_c_horse_turkoman_silver"),
+	GetHashKey("a_c_horse_winter02_01"),
+	GetHashKey("a_c_horsemule_01"),
+	GetHashKey("a_c_horsemulepainted_01")
+            -- Add more horse model hashes here
+        }
+
+        local horseModel = GetEntityModel(playerHorse)
+        local isHorse = false
+
+        for _, hash in ipairs(horseModelHashes) do
+            if hash == horseModel then
+                isHorse = true
+                break
+            end
+        end
+
+        if isHorse then
+            TaskHorseAction(playerHorse, 5) -- 5 corresponds to the "Rear" trick
+        else
+            print("You are not on a horse.")
+        end
+    else
+        print("You are not mounted on any vehicle.")
+    end
+end, false)
+
+TriggerEvent('chat:addSuggestion', '/' .. command, 'Make the horse rear.')
+
+print("Rear command script loaded.")

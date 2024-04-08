@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="200.00000000"/>
+      <flags value="537001984" />
+      <loadFlags value="537001984" />
+      <specialAttribute value="0" />
+      <bbMin x="-8.761472" y="-7.8444476" z="-0.513634" />
+      <bbMax x="8.728612" y="7.8680162" z="0.15353842" />
+      <bsCentre x="-0.016429901" y="0.011784315" z="-0.18004781" />
+      <bsRadius value="11.760417" />
+      <hdTextureDist value="60.0"/>
+      <name>courtroomceiling</name>
+      <textureDictionary>courtroomceiling_ytd</textureDictionary>
+      <physicsDictionary>courtroomceiling</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>courtroomceiling</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>courtroomceiling_ytyp</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

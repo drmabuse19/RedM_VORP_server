@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="app">
+            <div class="managermenu" v-if="showing2">
+                <img src="assets/menu_background.png" alt="Oil Manager Menu" height="600" width="430" class="mainmenuimg">
+                <button class="menubutton1" @click="openManagerOilMenu()">{{ language.NUIOilMenu }}</button>
+                <button class="menubutton2" @click="openManagerSupplyMenu">{{ language.NUISupplyMenu }} </button>
+                <button class="exitbutton" @click="onExitMenu()">{{ language.NUIExitMenu }}</button>
+            </div>
+            <div class="OilMenu" v-if="showing">
+                <img src="assets/menu_background.png" alt="Oil Manager Menu" height="600" width="430" class="mainmenuimg2">
+                <button class="menubutton3" @click="buyoilwagon()">{{ language.NUIBuyOilWagon }}<span id="buyoilwagon">{{ config.OilWagon.price }}</span> ?</button>
+                <button class="menubutton4" @click="selloilwagon()">{{ language.NUISellOilWagon }}<span id="selloilwagon">{{ config.OilWagon.sellprice }}</span> ?</button>
+                <button class="menubutton5" @click="oildeliverymission()">{{ language.NUIDeliverMission }}</button>
+                <button class="exitbutton" @click="onExitMenu()">{{ language.NUIExitMenu }}</button>
+            </div>
+            <div class="supplymenu" v-if="showing3">
+                <img src="assets/menu_background.png" alt="Oil Manager Menu" height="600" width="430" class="mainmenuimg2">
+                <button class="menubutton3" @click="buysupplywagon()">{{ language.NUIBuySupplyWagon }}<span id="buyoilwagon">{{ config.SupplyWagon.price }}</span> ?</button>
+                <button class="menubutton4" @click="sellsupplywagon()">{{ language.NUISellSupplyWagon }}<span id="selloilwagon">{{ config.SupplyWagon.sellprice }}</span> ?</button>
+                <button class="menubutton5" @click="supplydeliverymission()">{{ language.NUIDeliverMission }}</button>
+                <button class="exitbutton" @click="onExitMenu()">{{ language.NUIExitMenu }}</button>
+            </div>
+            <div class="crimmenu" v-if="crimshowing">
+                <img src="assets/menu_background.png" alt="crimmenu" height="600" width="440" class="mainmenuimg">
+                <button class="menubutton6" @click="roboilco()">{{ language.NUIRobOilCompany }}</button>
+                <button class="menubutton7" @click="roboilwagon()">{{ language.NUIRobOilWagon }}</button>
+                <button class="exitbutton" @click="onExitMenu()">{{ language.NUIExitMenu }}</button>
+            </div>
+        </div>
+    </body>
+</html>
+
+<!--This is what allows us to use vue.js-->
+<script src="vendor/vue.js"></script>
+<script src="app.js"></script>

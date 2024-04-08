@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="50.00000000"/>
+      <flags value="537001984" />
+      <loadFlags value="537001984" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.7158813" y="-0.67310125" z="-0.6130135" />
+      <bbMax x="0.6973296" y="0.6625247" z="2.1484432" />
+      <bsCentre x="-0.009275854" y="-0.005288273" z="0.76771486" />
+      <bsRadius value="1.6886907" />
+      <hdTextureDist value="60.0"/>
+      <name>cookingstation</name>
+      <textureDictionary>cookingstation_ytd</textureDictionary>
+      <physicsDictionary>cookingstation</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>cookingstation</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>cookingstation_ytyp</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

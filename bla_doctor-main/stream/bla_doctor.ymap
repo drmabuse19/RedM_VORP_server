@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CMapData>
+  <name>bla_doctor</name>
+  <parent/>
+  <flags value="0"/>
+  <contentFlags value="73"/>
+  <streamingExtentsMin x="-1017.996" y="-1441.63733" z="-158.250549"/>
+  <streamingExtentsMax x="-603.1137" y="-1032.43738" z="249.684113"/>
+  <entitiesExtentsMin x="-817.2034" y="-1240.02722" z="42.014534"/>
+  <entitiesExtentsMax x="-802.321167" y="-1230.82727" z="49.9492226"/>
+  <entities>
+		<Item type="CEntityDef">
+			<archetypeName>bla_doctor_ext</archetypeName>
+			<flags value="1572897"/>
+		  <position x="-802.649048" y="-1235.427246" z="42.799999"/>
+      <rotation w="0.999841" x="-0.000000" y="0.000000" z="0.017857"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<redm_loves_you_2158e9a42f04a7dc value="255"/>
+			<redm_loves_you_7dd29b0dd179bea5 value="255"/>
+		</Item>
+    <Item type="CMloInstanceDef">
+      <archetypeName>bla_doctor_int_col</archetypeName>
+      <flags value="1572864"/>
+		  <position x="-802.649048" y="-1235.427246" z="42.799999"/>
+      <rotation w="0.999841" x="-0.000000" y="0.000000" z="-0.017857"/>
+      <scaleXY value="1.00000000"/>
+      <scaleZ value="1.00000000"/>
+      <parentIndex value="-1"/>
+      <lodDist value="200.00000000"/>
+      <childLodDist value="0.00000000"/>
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <redm_loves_you_2158e9a42f04a7dc value="255"/>
+      <redm_loves_you_7dd29b0dd179bea5 value="255"/>
+      <tintValue value="0"/>
+      <groupId>0xA00FBCC5</groupId>
+      <floorId value="0"/>
+      <defaultEntitySets/>
+      <numExitPortals value="3"/>
+      <MLOInstflags value="0"/>
+      <redm_loves_you_cf303652f51cff2d value="0.00000000"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries>
+    <Item>bla_doctor_int_col</Item>
+  </physicsDictionaries>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>bla_doctor</name>
+    <exportedBy/>
+    <owner/>
+    <time/>
+  </block>
+</CMapData>

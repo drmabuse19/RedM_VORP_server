@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "RDRLino-Regular";
+  src: url(assets/RDRLino-Regular.ttf);
+}
+
+* {
+  overflow: hidden;
+  font-family: 'RDRLino-Regular', serif;
+  font-size: 4vh;
+}
+
+.mainmenuimg {
+  opacity: 95%;
+  overflow: hidden;
+  border-radius: 3vh;
+}
+
+#app .menubutton1 {
+  position: absolute;
+  top: 40%;
+  left: 40.7%;
+  background: none;
+  border: none;
+  width: 30vh;
+}
+
+#app .menubutton1:hover {
+  color: red;
+}
+
+#app .menubutton2 {
+  position: absolute;
+  top: 60%;
+  left: 40.7%;
+  background: none;
+  border: none;
+  width: 32vh;
+}
+
+#app .menubutton2:hover {
+  color: red;
+}
+
+#app {
+  position: relative;
+  text-align: center;
+}
+
+.mainmenuimg2 {
+  opacity: 95%;
+  overflow: hidden;
+  border-radius: 3vh;
+}
+
+#app .menubutton3 {
+  position: absolute;
+  top: 30%;
+  left: 39.3%;
+  background: none;
+  border: none;
+  width: 40vh;
+}
+
+#app .menubutton3:hover {
+  color: red;
+}
+
+#app .menubutton4 {
+  position: absolute;
+  top: 47%;
+  left: 40.2%;
+  background: none;
+  border: none;
+  width: 37vh;
+}
+
+#app .menubutton4:hover {
+  color: red;
+}
+
+#app .menubutton5 {
+  position: absolute;
+  top: 65%;
+  left: 39.7%;
+  background: none;
+  border: none;
+  width: 37vh;
+}
+
+#app .menubutton5:hover {
+  color: red;
+}
+
+#app .exitbutton {
+  position: absolute;
+  top: 80%;
+  left: 40.7%;
+  background: none;
+  border: none;
+  width: 30vh;
+}
+
+#app .exitbutton:hover {
+  color: red;
+}
+
+#app .menubutton6 {
+  position: absolute;
+  top: 25%;
+  left: 39.7%;
+  background: none;
+  border: none;
+  width: 38vh;
+}
+
+#app .menubutton6:hover {
+  color: red;
+}
+
+#app .menubutton7 {
+  position: absolute;
+  top: 58%;
+  left: 39.7%;
+  background: none;
+  border: none;
+  width: 35vh;
+}
+
+#app .menubutton7:hover {
+  color: red;
+}

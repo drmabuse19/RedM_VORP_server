@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="50.00000000"/>
+      <flags value="537001984" />
+      <loadFlags value="537001984" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.1606445" y="-0.2050781" z="0.001953125" />
+      <bbMax x="0.1572266" y="0.1987305" z="0.2749023" />
+      <bsCentre x="-0.0017089471" y="-0.0031737983" z="0.13842772" />
+      <bsRadius value="0.29094875" />
+      <hdTextureDist value="60.0"/>
+      <name>walnutbasketdry</name>
+      <textureDictionary>nutbasketdry_ytd</textureDictionary>
+      <physicsDictionary>walnutbasketdry</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>walnutbasketdry</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>walnutbasketdry_ytyp</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

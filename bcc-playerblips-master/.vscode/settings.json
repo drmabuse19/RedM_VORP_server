@@ -1,0 +1,33 @@
+{
+    "Lua.diagnostics.globals": [
+        "Citizen",
+        "SetBlipSprite",
+        "SetBlipScale",
+        "GetPlayers",
+        "RemoveBlip",
+        "GetActivePlayers",
+        "GetPlayerPed",
+        "GetEntityCoords",
+        "fx_version",
+        "game",
+        "rdr3_warning",
+        "author",
+        "description",
+        "server_scripts",
+        "client_scripts",
+        "clear_blips",
+        "TriggerServerEvent",
+        "RegisterNetEvent",
+        "GetPlayerServerId",
+        "PlayerId",
+        "SetBlipCoords",
+        "TriggerEvent",
+        "RegisterServerEvent",
+        "AddEventHandler",
+        "source",
+        "DoesEntityExist",
+        "GetPlayerName",
+        "TriggerClientEvent",
+        "GetHashKey"
+    ]
+}

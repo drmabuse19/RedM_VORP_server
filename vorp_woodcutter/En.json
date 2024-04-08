@@ -1,0 +1,7 @@
+{
+    "PressToStart": "Press [~e~Space~q~] to refine wood",
+    "PressToStop": "Press [~e~LEFTCLICK~q~] to refine Or [~e~Space~q~] to finish",
+    "RefineReward": "You received {0} of wooden boards",
+    "InsufficientMaterials": "You no have enought materials",
+    "CantCarryMore": "you can't carry more"
+}

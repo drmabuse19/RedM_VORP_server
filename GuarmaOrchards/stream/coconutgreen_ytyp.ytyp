@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="50.00000000"/>
+      <flags value="537001984" />
+      <loadFlags value="537001984" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.23170276" y="-0.16956484" z="-0.13819455" />
+      <bbMax x="0.16975677" y="0.24130392" z="0.15509376" />
+      <bsCentre x="-0.030972995" y="0.03586954" z="0.008449607" />
+      <bsRadius value="0.32249066" />
+      <hdTextureDist value="60.0"/>
+      <name>coconutgreen</name>
+      <textureDictionary>coconutgreen_ytd</textureDictionary>
+      <physicsDictionary>coconutgreen</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>coconutgreen</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>coconutgreen_ytyp</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

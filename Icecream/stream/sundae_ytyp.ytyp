@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="50.00000000"/>
+      <flags value="537001984" />
+      <loadFlags value="537001984" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.082682945" y="-0.08336614" z="-0.19843167" />
+      <bbMax x="0.07999542" y="0.0821061" z="0.17118756" />
+      <bsCentre x="-0.0013437606" y="-0.0006300211" z="-0.013622053" />
+      <bsRadius value="0.21821074" />
+      <hdTextureDist value="60.0"/>
+      <name>sundae</name>
+      <textureDictionary>sundae_ytd</textureDictionary>
+      <physicsDictionary>sundae</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>sundae</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>sundae_ytyp</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

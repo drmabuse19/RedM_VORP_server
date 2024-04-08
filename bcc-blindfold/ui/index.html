@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="app">
+      <div class="wrapper" v-if="visible">
+        <div class="escape" v-if="config.escape && config.escape.active">
+          <div class="escape-text">{{config.escape.lang.escape}}</div>
+          <div :class="{'escape-button': !opress, 'escape-button-pressed': opress}">{{config.escape.lang.button}}</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- Import your JS and JS Vendor (vue.js) -->
+<script src="https://unpkg.com/vue@3.1.1/dist/vue.global.prod.js"></script> 
+<script src="app.js"></script>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="50.00000000"/>
+      <flags value="537001984" />
+      <loadFlags value="537001984" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.11818545" y="-0.11811664" z="-0.0027284739" />
+      <bbMax x="0.108635485" y="0.106654406" z="0.10976442" />
+      <bsCentre x="-0.004774984" y="-0.005731117" z="0.05351797" />
+      <bsRadius value="0.16928114" />
+      <hdTextureDist value="60.0"/>
+      <name>limes</name>
+      <textureDictionary>lime_ytd</textureDictionary>
+      <physicsDictionary>limes</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>limes</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>limes_ytyp</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

@@ -1,0 +1,6 @@
+INSERT INTO `items` (`item`, `label`, `limit`, `can_remove`, `type`, `usable`, `metadata`, `desc`) VALUES ('canteen_full', 'Cantil Cheio', 1, 1, 'item_standard', 1, '{}', 'nice item');
+INSERT INTO `items` (`item`, `label`, `limit`, `can_remove`, `type`, `usable`, `metadata`, `desc`) VALUES ('canteen_80', 'Cantil 80%', 1, 1, 'item_standard', 1, '{}', 'nice item');
+INSERT INTO `items` (`item`, `label`, `limit`, `can_remove`, `type`, `usable`, `metadata`, `desc`) VALUES ('canteen_60', 'Cantil 60%', 1, 1, 'item_standard', 1, '{}', 'nice item');
+INSERT INTO `items` (`item`, `label`, `limit`, `can_remove`, `type`, `usable`, `metadata`, `desc`) VALUES ('canteen_40', 'Cantil 40%', 1, 1, 'item_standard', 1, '{}', 'nice item');
+INSERT INTO `items` (`item`, `label`, `limit`, `can_remove`, `type`, `usable`, `metadata`, `desc`) VALUES ('canteen_20', 'Cantil 20%', 1, 1, 'item_standard', 1, '{}', 'nice item');
+INSERT INTO `items` (`item`, `label`, `limit`, `can_remove`, `type`, `usable`, `metadata`, `desc`) VALUES ('canteen_empty', 'Cantil Vazio', 1, 1, 'item_standard', 0, '{}', 'nice item');

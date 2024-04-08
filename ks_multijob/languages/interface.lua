@@ -1,0 +1,25 @@
+Interface = {
+    ['en'] = {
+        BoardTitle = 'Bulletin Board',
+        Select = 'Select',
+        AreYouSure = 'Are you sure?',
+        Yes = 'Yes',
+        No = 'No',
+        Grade = 'Grade: ',
+        JobCount = 'Job count: ',
+        DeleteJob = 'Delete',
+        MyJobsTitle = 'My Jobs',
+        MyJobsSubTitle = 'Set an active job',
+    },
+   ['no'] = {
+    BoardTitle = 'Oppslagstavle',
+    Select = 'Velg',
+    AreYouSure = 'Er du sikker?',
+    Yes = 'Ja',
+    No = 'Nei',
+    Grade = 'Grad: ',
+    JobCount = 'Antall jobber: ',
+    DeleteJob = 'Slett',
+    MyJobsTitle = 'Mine Jobber',
+    MyJobsSubTitle = 'Sett en aktiv jobb',
+}}

@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+
+
+.content {
+  position: absolute;
+  border-radius: 5px;
+  width: 80vh;
+  height: 95vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("../bg.jpg");
+  background-color: #caa066;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0px 0px 3px 0px rgba(239, 209, 156, 0.4) inset,
+    1px 1px 6px 1px rgba(239, 209, 156, 0.4);
+}
+
+.content p {
+  padding-left: 10%;
+
+}
+
+.content el-form {
+  padding-left: 12%;
+
+}
+
+.content el-form3 {
+  padding-top: 10%;
+}
+
+.content el-form10 {
+  left: 5%;
+}
+
+/*HOME*/
+.content h2 {
+  padding-left: 12%;
+
+font-family: 'Special Elite', cursive;
+  font-style: medium;
+  user-select: none;
+  color: #000000;
+  margin: 1px 1px 1px 1px;
+}
+/*Home page Text*/
+.content h3 {
+font-family: 'Special Elite', cursive;
+  user-select: none;
+  color: #000000;
+  font-size: 1.5vh;
+}
+/*SubText for calls and warrants*/
+.content h4 {
+font-family: 'Special Elite', cursive;
+
+  font-size: 1.8vh;
+  user-select: none;
+  color: rgb(0, 0, 0);
+  margin: 1px 1px 10px 1px;
+}
+
+/*Sidebar text*/
+.content li {
+font-family: 'Special Elite', cursive;
+  color: #000000;
+  float: bottom;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 2.1vh;
+}
+.content li:last-child {
+  border-right: none;
+}
+.content button {
+  background-color: #000000;
+  color: #dcdcdc;
+font-family: 'Special Elite', cursive;
+
+  border: 5px solid #000000;
+  font-size: 12pt;
+  text-align: center;
+  padding: 4px 2px;
+}
+.content input {
+  background-color: #dcdcdc;
+font-family: 'Special Elite', cursive;
+  border: 2px solid #000000;
+  color: #000000;
+  font-size: 12pt;
+  padding: 7px 15px 5px 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-overflow: ellipsis;
+  text-align: left;
+}
+.content textarea {
+  background-color: #dcdcdc;
+  white-space: pre-line;
+  white-space: pre-wrap;
+  font-family: 'Special Elite', cursive;
+  font-size: 1.5vh;
+  border: 2px solid #000000;
+  color: #000000;
+  width: 70%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-overflow: ellipsis;
+  text-align: left;
+  outline: none;
+}
+.content th {
+font-family: 'Special Elite', cursive;
+
+  font-size: 1.5vh;
+  color: #000000;
+  padding: 5px 10px;
+  text-align: center;
+  border-bottom: 3px solid #000000;
+}
+.content td {
+font-family: 'Special Elite', cursive;
+  font-size: 1.3vh;
+  color: #000000;
+  padding: 10px;
+  text-align: center;
+  border-top: 1px solid #deb985;
+}
+.content table {
+  border-collapse: collapse;
+  column-gap: 3px solid #deb985;
+}
+.content table td + td {
+  border-left: 2px solid #deb985;
+}
+.content table th + th {
+  border-left: 2px solid #deb985;
+}
+.content tr:not(:first-child):hover {
+  background-color: #616161;
+}
+.content button:hover {
+  background-color: #616161;
+  border-color: #616161;
+}
+.content ::-webkit-scrollbar-thumb {
+  background: #deb985;
+  border-radius: 5px;
+}
+.badge {
+  position: fixed;
+  display: inline-block;
+  left: 3.245%;
+  top: 1.5%;
+  max-width: 150px;
+  height: auto;
+}
+.mugshot {
+  display: inline-block;
+  max-width: 215px;
+  height: auto;
+  border: 2px solid #616161;
+  user-select: none;
+}
+.notification {
+  display: none;
+  z-index: 1;
+  position: fixed;
+  top: 1%;
+  right: 0%;
+  max-width: 25%;
+  padding: 15px;
+  background-color: #000000;
+  border-bottom: 2px solid #616161;
+}
+.report-input {
+font-family: 'Special Elite', cursive;
+  border-width: 0px;
+  border: none;
+  color: #dcdcdc;
+  font-size: 12pt;
+  padding: 0px 0px 0px 0px;
+  width: 70%;
+  margin-right: 10px;
+  text-overflow: ellipsis;
+  text-align: left;
+
+}
+.note-input {
+  font-family: 'Special Elite', cursive;
+    border-width: 0px;
+    border: none;
+    color: #dcdcdc;
+    font-size: 12pt;
+    padding: 0px 0px 0px 0px;
+    width: 70%;
+    margin-right: 10px;
+    text-overflow: ellipsis;
+    text-align: left;
+  
+  }
+.wrapper {
+  display: flex;
+  position: relative;
+}
+/* ------------------------------------------------------------- */
+
+.content .sidebar {
+  position: fixed; 
+  left: 1%; 
+  top: 0%; 
+  bottom: 3%;
+  width: 19%;
+  height: 100%;
+}
+
+.content .sidebar img {
+  position: relative; 
+  left: 15%; 
+  top: 3%;
+  width: 15vh;
+  height: 15vh;
+
+}
+
+.content .sidebar h2 {
+  padding-top: 20%;
+
+  margin-bottom: 20px;
+}
+
+.content .sidebar ul li {
+  padding: 1px;
+  line-height: 2vh;
+  height: 7%;
+  transition: ease-out 0.3s;
+}
+
+.content .sidebar ul li a .fas {
+  width: 25px;
+}
+
+.content .sidebar ul li:hover {
+
+  color: #000000;
+}
+/* ------------------------------------------------------------- */
+
+.modal-content {
+  position: relative;
+  background-color: #caa066;
+  margin: auto;
+  padding: 0;
+  margin: 0 auto;
+  border: 2px solid #383838;
+  border-radius: 2px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+.close {
+  color: #383838;
+  float: right;
+  font-size: 1.4em;
+}
+.close:hover,
+.close:focus {
+  color: #dc143c;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: #dc143c;
+  text-decoration: none;
+  cursor: pointer;
+}
+.clickable {
+  text-decoration: underline;
+  text-decoration-color: #383838;
+}
+.clickable:hover,
+.clickable2:hover {
+  color: #dc143c;
+}
+.important h4 {
+  text-decoration: underline;
+  text-decoration-color: #383838;
+}
+
+.img-block {
+  padding: 5px;
+  padding-top: 15vh;
+  color: #dc143c;
+  /* background-color: #383838; */
+  /* border: 2px solid #383838; */
+  position: absolute;
+  font-family: 'Special Elite', cursive;
+  font-weight: bold;
+  /* text-decoration: underline; */
+  font-size: 1.5vh;
+  /* top: 80%; */
+}
+.textarea {
+  font-size: 14px;
+  border: 2px solid #1a1a1a;
+  padding: 7px 15px 5px 15px;
+}

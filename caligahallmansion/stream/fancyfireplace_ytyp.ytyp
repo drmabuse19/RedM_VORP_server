@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="50.00000000"/>
+      <flags value="537001984" />
+      <loadFlags value="537001984" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.0310142" y="-0.6400974" z="-1.1976223" />
+      <bbMax x="1.045553" y="0.37856624" z="1.9264009" />
+      <bsCentre x="0.0072693825" y="-0.13076557" z="0.3643893" />
+      <bsRadius value="1.9435359" />
+      <hdTextureDist value="60.0"/>
+      <name>fancyfireplace</name>
+      <textureDictionary>caligahall_int_ytd</textureDictionary>
+      <physicsDictionary>fancyfireplace</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>fancyfireplace</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>fancyfireplace_ytyp</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

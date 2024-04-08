@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="299"/>
+      <flags value="0" />
+      <loadFlags value="0x0000000000000000" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.791943" y="-5.891942" z="-3.7393677" />
+      <bbMax x="4.466358" y="6.3989725" z="3.9435885" />
+      <bsCentre x="-0.16279244" y="0.25351524" z="0.102110386" />
+      <bsRadius value="8.599571" />
+      <hdTextureDist value="60.0"/>
+      <name>bee_workerexterior</name>
+      <textureDictionary>bee_workerexterior_ytd</textureDictionary>
+      <physicsDictionary>bee_workerexterior</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_workerexterior</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>bee_workerexterior_ytyp</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

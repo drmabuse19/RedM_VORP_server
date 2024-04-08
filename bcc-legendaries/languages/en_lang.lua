@@ -1,0 +1,22 @@
+Locales["no"] = {
+    Deadtext = 'Du døde, jakten mislyktes',
+    Cluefound = 'Du fant et spor som peker mot dyrets plassering',
+    Initialblipmark = 'Den siste kjente plasseringen av dyret har blitt markert',
+    Poachersattack = 'Pass på! Krypskyttere angriper!',
+    Cooldownactive = 'Jeg har ingenting å tilby, kom tilbake senere',
+    Lastlocationblip = 'Siste plassering',
+    Poachersdead = 'Du drepte krypskytterne, se nå rundt etter spor',
+    Poacherschestblip = 'Krypskytteres kiste',
+    ChestPrompt = 'Søk i kisten',
+    ClueBlip = 'Spor',
+    Menuname = "Legendariske Jakter",
+    Hunterblip = "Jeger",
+    Shoptext = 'Trykk "G" for å se hva jegeren tilbyr',
+    LegAnimalSpawned = 'Dyret er i nærheten!',
+    AnimalSkinned = 'Du flådde dyret og fikk pelsen dens!',
+    Leveldisp = 'Ditt nåværende nivå',
+    Nolevel = 'Du har ikke opplevd nok til å snakke med meg',
+    AlreadyInMission = 'Du er allerede på en jakt!',
+    WebhookTitle = 'Bcc Legendariske',
+    WebhookDesc = 'Har begynt jakten på'
+}

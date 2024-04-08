@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="50.00000000"/>
+      <flags value="537001984" />
+      <loadFlags value="537001984" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.3726153" y="-1.7451686" z="-1.3318815" />
+      <bbMax x="1.3488474" y="1.9260164" z="1.8556272" />
+      <bsCentre x="-0.011883974" y="0.09042394" z="0.26187283" />
+      <bsRadius value="2.7858648" />
+      <hdTextureDist value="60.0"/>
+      <name>icecreamcart_model</name>
+      <textureDictionary>icecreamcart_txd</textureDictionary>
+      <physicsDictionary>icecreamcart_model</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>icecreamcart_model</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>icecreamcart_ytyp</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

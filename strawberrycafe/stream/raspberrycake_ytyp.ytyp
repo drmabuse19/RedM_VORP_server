@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="299"/>
+      <flags value="0" />
+      <loadFlags value="0x0000000000000000" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.06053557" y="-0.059246715" z="-0.034121666" />
+      <bbMax x="0.060096413" y="0.06234251" z="0.06320781" />
+      <bsCentre x="-0.00021957792" y="0.0015478972" z="0.014543073" />
+      <bsRadius value="0.09850006" />
+      <hdTextureDist value="60.0"/>
+      <name>raspberrycake</name>
+      <textureDictionary>raspberrycake_ytd</textureDictionary>
+      <physicsDictionary>raspberrycake</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>raspberrycake</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>raspberrycake</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

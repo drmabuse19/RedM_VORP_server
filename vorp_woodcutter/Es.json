@@ -1,0 +1,7 @@
+{
+  "PressToStart": "Pulsa [~e~Espacio~q~] para refinar la madera",
+  "PressToStop": "Pulsa [~e~Espacio~q~] para terminar",
+  "RefineReward": "Has recibido {0} de madera refinada",
+  "InsufficientMaterials": "No tienes suficientes materiales",
+  "CantCarryMore": "No puedes llevar mas"
+}

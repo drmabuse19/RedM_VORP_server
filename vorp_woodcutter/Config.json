@@ -1,0 +1,52 @@
+{
+  "defaultlang": "En",
+
+  "TimeToRespawn": 10,
+
+  //Rewards
+  "ItemGivedOnChop": "wood",
+  "ItemGivedOnRefine": "wooden_boards",
+  "ItemNeededOnRefine": 5,
+  "ItemsGivedOnRefine": [ 2, 5 ],
+
+  "RefineryZones": [
+    {
+      "Coords": [ -355.98, 757.25, 116.07 ] //In dev
+    }
+  ],
+
+  "SyncTrees": [
+    {
+      "Model": "p_tree_pine_ponderosa_07",
+      "NameOnTarget": "Cedro",
+      "ItemGivedOnChopRandom": [ 1, 10 ], // min 1, max 10
+      "XPGivedOnChop": 100,
+      "Health": 600,
+      "Coords": [ -1344.269, -230.701, 101.8 ]
+    },
+    {
+      "Model": "p_tree_pine_ponderosa_07",
+      "NameOnTarget": "Cedro",
+      "ItemGivedOnChopRandom": [ 1, 10 ], // min 1, max 10
+      "XPGivedOnChop": 100,
+      "Health": 600,
+      "Coords": [ -1337.316, -266.1476, 103.0 ]
+    },
+    {
+      "Model": "p_tree_pine_ponderosa_07",
+      "NameOnTarget": "Cedro",
+      "ItemGivedOnChopRandom": [ 1, 10 ], // min 1, max 10
+      "XPGivedOnChop": 100,
+      "Health": 600,
+      "Coords": [ -1348.599, -277.4002, 102.0 ]
+    },
+    {
+      "Model": "p_tree_pine_ponderosa_07",
+      "NameOnTarget": "Cedro",
+      "ItemGivedOnChopRandom": [ 1, 10 ], // min 1, max 10
+      "XPGivedOnChop": 100,
+      "Health": 600,
+      "Coords": [ -1373.911, -296.953, 100.0 ]
+    }
+  ]
+}

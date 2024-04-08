@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "strict": true,
+    "module": "es2020",
+    "types": ["@types/node", "@citizenfx/client", "@citizenfx/server"],
+    "declaration": true,
+    "target": "es2021",
+    "allowJs": false,
+    "lib": ["es2021"],
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "experimentalDecorators": true,
+    "noImplicitAny": true
+  },
+  "include": ["client", "server", "shared"],
+  "exclude": ["**/node_modules"]
+}

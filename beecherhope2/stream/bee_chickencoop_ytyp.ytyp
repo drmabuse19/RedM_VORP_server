@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="299"/>
+      <flags value="0" />
+      <loadFlags value="0x0000000000000000" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.900266" y="-4.6642" z="-2.518234" />
+      <bbMax x="4.066043" y="4.310898" z="1.9129179" />
+      <bsCentre x="0.082888484" y="-0.176651" z="-0.30265808" />
+      <bsRadius value="6.3962793" />
+      <hdTextureDist value="60.0"/>
+      <name>bee_chickencoop</name>
+      <textureDictionary>bee_chickencoop_ytd</textureDictionary>
+      <physicsDictionary>bee_chickencoop</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_chickencoop</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>bee_chickencoop_ytyp</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

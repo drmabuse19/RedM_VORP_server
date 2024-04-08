@@ -1,0 +1,1140 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+   <extensions />
+   <archetypes>
+      <Item type="CBaseArchetypeDef">
+         <lodDist value="147.00000000" />
+         <flags value="0" />
+         <specialAttribute value="0" />
+         <bbMin x="-14.55440000" y="-4.60000000" z="-0.78546660" />
+         <bbMax x="0.32789520" y="4.59999900" z="7.14922300" />
+         <bsCentre x="-7.11325300" y="-0.00000072" z="3.18187800" />
+         <bsRadius value="8.74818100" />
+         <hdTextureDist value="83.82830000" />
+         <name>bla_doctor_ext</name>
+         <textureDictionary>bla_doctor_ext</textureDictionary>
+         <clipDictionary />
+         <drawableDictionary />
+         <physicsDictionary />
+         <assetType>ASSET_TYPE_DRAWABLE</assetType>
+         <assetName>bla_doctor_ext</assetName>
+         <extensions />
+      </Item>
+      <Item type="CBaseArchetypeDef">
+         <lodDist value="147.00000000" />
+         <flags value="0" />
+         <specialAttribute value="0" />
+         <bbMin x="-14.14394000" y="-3.97112300" z="0.19266970" />
+         <bbMax x="-2.22505800" y="3.94498300" z="3.17550300" />
+         <bsCentre x="-8.18449700" y="-0.01306975" z="1.68408700" />
+         <bsRadius value="7.15409700" />
+         <hdTextureDist value="17.82830000" />
+         <name>bla_doctor_int</name>
+         <textureDictionary>bla_doctor_int</textureDictionary>
+         <clipDictionary />
+         <drawableDictionary />
+         <physicsDictionary />
+         <assetType>ASSET_TYPE_DRAWABLE</assetType>
+         <assetName>bla_doctor_int</assetName>
+         <extensions />
+      </Item>
+      <Item type="CMloArchetypeDef">
+         <lodDist value="109.50100000" />
+         <flags value="0" />
+         <specialAttribute value="0" />
+         <bbMin x="0.00000000" y="0.00000000" z="0.00000000" />
+         <bbMax x="0.00000000" y="0.00000000" z="0.00000000" />
+         <bsCentre x="0.00000000" y="0.00000000" z="0.00000000" />
+         <bsRadius value="0.00000000" />
+         <hdTextureDist value="5.00000000" />
+         <name>bla_doctor_int_col</name>
+         <textureDictionary />
+         <clipDictionary />
+         <drawableDictionary />
+         <physicsDictionary>bla_doctor_int_col</physicsDictionary>
+         <assetType>ASSET_TYPE_ASSETLESS</assetType>
+         <assetName />
+         <extensions />
+         <mloFlags value="0" />
+         <entities>
+            <Item type="CEntityDef">
+               <archetypeName>bla_doctor_int</archetypeName>
+               <flags value="18350080" />
+               <guid value="0" />
+               <position x="0.00000000" y="0.00000000" z="0.00000000" />
+               <rotation x="0.00000000" y="0.00000000" z="0.00000000" w="1.00000000" />
+               <scaleXY value="1.00000000" />
+               <scaleZ value="1.00000000" />
+               <parentIndex value="-1" />
+               <lodDist value="25.00000000" />
+               <childLodDist value="0.00000000" />
+               <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <extensions />
+               <redm_loves_you_2158e9a42f04a7dc value="0" />
+               <redm_loves_you_7dd29b0dd179bea5 value="0" />
+               <tintValue value="0" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_windowa_newwood</archetypeName>
+               <flags value="1572897" />
+               <guid value="0" />
+               <position x="-2.300075" y="-3.017696" z="1.013302" />
+               <rotation w="0.709746" x="-0.000000" y="0.000000" z="0.704458" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_windowa_newwood</archetypeName>
+               <flags value="1572897" />
+               <guid value="0" />
+               <position x="-2.275054" y="-0.158866" z="1.013302" />
+               <rotation w="0.709746" x="-0.000000" y="0.000000" z="0.704458" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_door62x</archetypeName>
+               <flags value="1572864" />
+               <guid value="0" />
+               <position x="-7.092986" y="1.053820" z="0.208869" />
+               <rotation w="0.703081" x="0.000000" y="-0.000000" z="-0.711110" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <extensions>
+                  <Item type="CExtensionDefDoor">
+                     <name>p_door62x</name>
+                     <offsetPosition x="0.00000000" y="0.00000000" z="0.00000000" />
+                     <redm_loves_you_9464h9o value="false" />
+                     <enableLimitAngle value="true" />
+                     <redm_loves_you_6xuitez value="false" />
+                     <startsLocked value="false" />
+                     <canBreak value="false" />
+                     <redm_loves_you_e896q value="false" />
+                     <redm_loves_you_8806e4i value="1.57079600" />
+                     <redm_loves_you_5ejp2zr value="1.57079600" />
+                     <redm_loves_you_fgszsw value="0.00000000" />
+                     <redm_loves_you_ml3hic value="0.00000000" />
+                     <doorTargetRatio value="0.00000000" />
+                     <audioHash />
+                     <redm_loves_you_qzzm1t />
+                  </Item>
+                  <Item type="CExtensionDefScriptEntityId">
+                     <name>p_door62x</name>
+                     <offsetPosition x="0.00000000" y="0.00000000" z="0.00000000" />
+                     <Id>bla_doctor_second_door</Id>
+                  </Item>
+               </extensions>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_door_val_genstore</archetypeName>
+               <flags value="1572864" />
+               <guid value="0" />
+               <position x="-2.273009" y="1.670640" z="0.186024" />
+               <rotation w="0.706724" x="0.000000" y="-0.000000" z="-0.707489" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <extensions>
+                  <Item type="CExtensionDefDoor">
+                     <name>p_door_val_genstore</name>
+                     <offsetPosition x="0.00000000" y="0.00000000" z="0.00000000" />
+                     <redm_loves_you_9464h9o value="false" />
+                     <enableLimitAngle value="true" />
+                     <redm_loves_you_6xuitez value="false" />
+                     <startsLocked value="false" />
+                     <canBreak value="false" />
+                     <redm_loves_you_e896q value="false" />
+                     <redm_loves_you_8806e4i value="1.57079600" />
+                     <redm_loves_you_5ejp2zr value="1.57079600" />
+                     <redm_loves_you_fgszsw value="0.00000000" />
+                     <redm_loves_you_ml3hic value="0.00000000" />
+                     <doorTargetRatio value="0.00000000" />
+                     <audioHash />
+                     <redm_loves_you_qzzm1t />
+                  </Item>
+                  <Item type="CExtensionDefScriptEntityId">
+                     <name>p_door_val_genstore</name>
+                     <offsetPosition x="0.00000000" y="0.00000000" z="0.00000000" />
+                     <Id>bla_doctor_main_door</Id>
+                  </Item>
+               </extensions>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_doc_botset21x</archetypeName>
+               <flags value="1572897" />
+               <position x="-10.779438" y="3.650398" z="1.269236" />
+               <rotation w="0.999944" x="-0.000000" y="0.000000" z="0.010578" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_ambclothseat01x</archetypeName>
+               <flags value="1572897" />
+               <position x="-9.963927" y="3.637374" z="2.139729" />
+               <rotation w="0.992559" x="0.000000" y="-0.000000" z="-0.121765" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_ambfloorrug02x</archetypeName>
+               <flags value="1572897" />
+               <position x="-8.579100" y="-2.481800" z="0.290047" />
+               <rotation w="0.492164" x="-0.000000" y="0.000000" z="0.870503" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_tablebedside02x</archetypeName>
+               <flags value="1572897" />
+               <position x="-7.510903" y="-2.390205" z="0.198868" />
+               <rotation w="0.704326" x="-0.000000" y="0.000000" z="0.709876" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_desk13x</archetypeName>
+               <flags value="1572897" />
+               <position x="-10.481625" y="0.013129" z="0.198891" />
+               <rotation w="0.701607" x="-0.000000" y="0.000000" z="0.712564" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>s_lootablebedchest</archetypeName>
+               <flags value="1572897" />
+               <position x="-10.357026" y="-3.556110" z="0.203602" />
+               <rotation w="-0.004253" x="0.000000" y="0.000000" z="-0.999991" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_basketcloth01x</archetypeName>
+               <flags value="1572897" />
+               <position x="-9.938208" y="-3.494126" z="0.817112" />
+               <rotation w="0.258193" x="-0.000000" y="0.000000" z="0.966093" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_lampwall04x</archetypeName>
+               <flags value="353894400" />
+               <position x="-8.620582" y="-3.969119" z="2.344406" />
+               <rotation w="-0.006309" x="0.000000" y="0.000000" z="-0.999980" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_nbmchinacabinet02x</archetypeName>
+               <flags value="1572897" />
+               <position x="-10.487584" y="3.637454" z="0.208912" />
+               <rotation w="1.000000" x="0.000000" y="-0.000000" z="-0.000782" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_ambclothseat01x</archetypeName>
+               <flags value="1572897" />
+               <position x="-10.541490" y="-3.621750" z="0.809216" />
+               <rotation w="0.413278" x="-0.000000" y="0.000000" z="0.910605" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_sink02x</archetypeName>
+               <flags value="1572897" />
+               <position x="-13.708284" y="0.346221" z="0.252007" />
+               <rotation w="0.711783" x="0.000000" y="-0.000000" z="-0.702400" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_nbmclock01x</archetypeName>
+               <flags value="1572897" />
+               <position x="-12.247136" y="-3.626483" z="0.198868" />
+               <rotation w="0.014587" x="0.000000" y="-0.000000" z="-0.999894" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_bowl04x_stew</archetypeName>
+               <flags value="1572897" />
+               <position x="-13.672464" y="-0.129605" z="1.049049" />
+               <rotation w="0.111866" x="-0.000000" y="0.000000" z="0.993723" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_lampwall04x</archetypeName>
+               <flags value="353894400" />
+               <position x="-14.130532" y="-0.958880" z="2.300167" />
+               <rotation w="0.702635" x="0.000000" y="-0.000000" z="-0.711551" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_cabinetdoctor01x</archetypeName>
+               <flags value="1572897" />
+               <position x="-13.349037" y="-3.207730" z="0.198875" />
+               <rotation w="0.384387" x="0.000000" y="-0.000000" z="-0.923172" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_coatrack04x</archetypeName>
+               <flags value="1572897" />
+               <position x="-7.208363" y="3.062444" z="1.806797" />
+               <rotation w="0.709911" x="-0.000000" y="0.000000" z="0.704291" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_lamphanging04x</archetypeName>
+               <flags value="353894400" />
+               <position x="-9.976981" y="0.195100" z="3.228821" />
+               <rotation w="0.531361" x="0.000000" y="-0.000000" z="-0.847145" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_doc_botset21x</archetypeName>
+               <flags value="1572897" />
+               <position x="-13.915756" y="1.810163" z="1.254234" />
+               <rotation w="0.708416" x="0.000000" y="-0.000000" z="-0.705795" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_globe02x</archetypeName>
+               <flags value="1572897" />
+               <position x="-11.477474" y="-3.575564" z="0.196266" />
+               <rotation w="0.177558" x="-0.000000" y="0.000000" z="0.984110" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_bed09x</archetypeName>
+               <flags value="1572897" />
+               <position x="-8.480129" y="-3.369805" z="0.204853" />
+               <rotation w="0.005550" x="0.000000" y="-0.000000" z="-0.999985" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_medwheelchair01x</archetypeName>
+               <flags value="1572897" />
+               <position x="-13.152227" y="3.273153" z="0.200977" />
+               <rotation w="0.857911" x="0.000000" y="-0.000000" z="-0.513799" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_cupboard02x</archetypeName>
+               <flags value="1572897" />
+               <position x="-13.744575" y="1.829152" z="0.198868" />
+               <rotation w="0.707888" x="0.000000" y="-0.000000" z="-0.706324" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_lampstanding03x</archetypeName>
+               <flags value="353894400" />
+               <position x="-8.269656" y="3.503425" z="0.206898" />
+               <rotation w="0.999388" x="-0.000000" y="0.000000" z="0.034987" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_drmedcabinet01x</archetypeName>
+               <flags value="1572897" />
+               <position x="-6.707832" y="3.092313" z="0.201298" />
+               <rotation w="0.701938" x="0.000000" y="-0.000000" z="-0.712238" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_cs_catalogue01x_noanim</archetypeName>
+               <flags value="1572897" />
+               <position x="-3.273881" y="-1.105085" z="1.258694" />
+               <rotation w="0.055888" x="-0.000000" y="0.000000" z="0.998437" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_sidetable11x</archetypeName>
+               <flags value="1572897" />
+               <position x="-6.212819" y="-3.594645" z="0.214413" />
+               <rotation w="0.019742" x="0.000000" y="-0.000000" z="-0.999805" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>s_clothingcasedoor01x</archetypeName>
+               <flags value="1572897" />
+               <position x="-5.651850" y="-3.894846" z="0.198868" />
+               <rotation w="0.001623" x="0.000000" y="-0.000000" z="-0.999999" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_nbx_doc_wallclocklrg01x</archetypeName>
+               <flags value="1572897" />
+               <position x="-4.621001" y="3.917568" z="2.203503" />
+               <rotation w="1.000000" x="-0.000000" y="0.000000" z="0.000007" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_lampstanding03x</archetypeName>
+               <flags value="353894400" />
+               <position x="-2.751383" y="3.483336" z="0.221889" />
+               <rotation w="0.999383" x="-0.000000" y="0.000000" z="0.035110" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_chandelier18x</archetypeName>
+               <flags value="1572897" />
+               <position x="-3.541252" y="-0.917196" z="3.196774" />
+               <rotation w="0.009996" x="0.000000" y="-0.000000" z="-0.999950" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_doc_coatstandrack01x</archetypeName>
+               <flags value="1572897" />
+               <position x="-2.808178" y="1.177920" z="0.231724" />
+               <rotation w="0.977569" x="-0.000000" y="0.000000" z="0.210614" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_newspaperlivestock01x</archetypeName>
+               <flags value="1572897" />
+               <position x="-5.146016" y="3.490564" z="0.582924" />
+               <rotation w="0.926298" x="-0.000000" y="0.000000" z="0.376793" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_boxmedmedical01x</archetypeName>
+               <flags value="1572897" />
+               <position x="-5.946644" y="-3.642472" z="1.018818" />
+               <rotation w="0.138135" x="0.000000" y="-0.000000" z="-0.990413" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_register03x</archetypeName>
+               <flags value="1572897" />
+               <position x="-2.747864" y="-1.236879" z="1.239384" />
+               <rotation w="0.999964" x="0.000000" y="-0.000000" z="-0.008451" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_doctorsbookpile01x</archetypeName>
+               <flags value="1572897" />
+               <position x="-3.461583" y="-3.382723" z="1.014515" />
+               <rotation w="0.025053" x="0.000000" y="-0.000000" z="-0.999686" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_chandelier18x</archetypeName>
+               <flags value="1572897" />
+               <position x="-5.934226" y="-1.071390" z="3.186768" />
+               <rotation w="0.009995" x="0.000000" y="-0.000000" z="-0.999950" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_doc_botset11x</archetypeName>
+               <flags value="1572897" />
+               <position x="-6.673905" y="3.303510" z="1.709831" />
+               <rotation w="0.682405" x="0.000000" y="-0.000000" z="-0.730975" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_doc_botset10x</archetypeName>
+               <flags value="1572897" />
+               <position x="-2.868385" y="-3.383841" z="1.004211" />
+               <rotation w="0.055836" x="0.000000" y="-0.000000" z="-0.998440" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_kitchenhutch01x</archetypeName>
+               <flags value="1572897" />
+               <position x="-3.162837" y="-3.590492" z="0.203697" />
+               <rotation w="0.002999" x="0.000000" y="-0.000000" z="-0.999996" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_bottlemedicine14x</archetypeName>
+               <flags value="1572897" />
+               <position x="-6.426678" y="-3.513909" z="1.195343" />
+               <rotation w="0.168813" x="0.000000" y="-0.000000" z="-0.985648" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_doc_botset18x</archetypeName>
+               <flags value="1572897" />
+               <position x="-6.754749" y="2.768638" z="1.250080" />
+               <rotation w="0.993779" x="0.000000" y="-0.000000" z="-0.111372" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_bench18x</archetypeName>
+               <flags value="1572897" />
+               <position x="-4.430982" y="3.504948" z="0.236893" />
+               <rotation w="0.999955" x="-0.000000" y="0.000000" z="0.009531" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_stove04x</archetypeName>
+               <flags value="1572897" />
+               <position x="-6.391777" y="-0.919298" z="0.214558" />
+               <rotation w="0.706282" x="0.000000" y="-0.000000" z="-0.707930" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_counterdoctor01x</archetypeName>
+               <flags value="1572897" />
+               <position x="-3.055593" y="-1.271533" z="0.198895" />
+               <rotation w="-0.003038" x="0.000000" y="0.000000" z="-0.999995" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_doc_ashbucket01x</archetypeName>
+               <flags value="1572897" />
+               <position x="-6.442245" y="-1.753319" z="0.227578" />
+               <rotation w="0.505937" x="0.000000" y="-0.000000" z="-0.862570" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>s_lootablecampcase_med</archetypeName>
+               <flags value="1572897" />
+               <position x="-6.767902" y="3.413847" z="2.404953" />
+               <rotation w="0.723394" x="0.000000" y="-0.000000" z="-0.690436" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_stool14x</archetypeName>
+               <flags value="1572897" />
+               <position x="-2.795349" y="-2.923884" z="0.231018" />
+               <rotation w="0.365231" x="-0.000000" y="0.000000" z="0.930917" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+            <Item type="CEntityDef">
+               <archetypeName>p_boxmedsuitcase01x</archetypeName>
+               <flags value="1572897" />
+               <position x="-6.764813" y="2.753007" z="2.413494" />
+               <rotation w="0.623830" x="0.000000" y="-0.000000" z="-0.781560" />
+               <scaleXY value="1" />
+               <scaleZ value="1" />
+               <parentIndex value="-1" />
+               <lodDist value="150" />
+               <childLodDist value="150" />
+               <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+               <numChildren value="0" />
+               <priorityLevel>PRI_REQUIRED</priorityLevel>
+               <redm_loves_you_2158e9a42f04a7dc value="255" />
+               <redm_loves_you_7dd29b0dd179bea5 value="255" />
+            </Item>
+         </entities>
+         <rooms>
+            <Item>
+               <name>limbo</name>
+               <bbMin x="-14.14394000" y="-3.97112300" z="0.19266970" />
+               <bbMax x="-2.22505800" y="3.94498300" z="3.17550000" />
+               <blend value="1.00000000" />
+               <secondaryTimecycleName />
+               <flags value="32" />
+               <portalCount value="3" />
+               <floorId value="0" />
+               <exteriorVisibiltyDepth value="-1" />
+               <attachedObjects content="int_array">0</attachedObjects>
+            </Item>
+            <Item>
+               <name>main</name>
+               <bbMin x="-6.89960000" y="-3.92060200" z="0.19888560" />
+               <bbMax x="-2.38335900" y="3.91904900" z="3.17550300" />
+               <blend value="1.00000000" />
+               <timecycleName>MP_fog_adjust</timecycleName>
+               <secondaryTimecycleName>int_extlight_none_dark_fog</secondaryTimecycleName>
+               <flags value="32" />
+               <portalCount value="4" />
+               <floorId value="0" />
+               <exteriorVisibiltyDepth value="-1" />
+               <attachedObjects content="int_array">
+			   		28
+					29
+					30
+					31
+					32
+					33
+					34
+					35
+					36
+					37
+					38
+					39
+					40
+					41
+					42
+					43
+					44
+					45
+					46
+					47
+					48
+					49
+					50
+					51
+					52
+			</attachedObjects>
+            </Item>
+            <Item>
+               <name>second</name>
+               <bbMin x="-14.11807000" y="-3.92060200" z="0.19888560" />
+               <bbMax x="-6.89960000" y="3.91904800" z="3.17550300" />
+               <blend value="1.00000000" />
+               <timecycleName>MP_fog_adjust</timecycleName>
+               <secondaryTimecycleName>int_extlight_none_dark_fog</secondaryTimecycleName>
+
+               <flags value="32" />
+               <portalCount value="1" />
+               <floorId value="0" />
+               <exteriorVisibiltyDepth value="-1" />
+               <attachedObjects content="int_array">
+			   		5
+					6
+					7
+					8
+					9
+					10
+					11
+					12
+					13
+					14
+					15
+					16
+					17
+					18
+					19
+					20
+					21
+					22
+					23
+					24
+					25
+					26
+					27
+			  </attachedObjects>
+            </Item>
+         </rooms>
+         <portals>
+            <Item>
+               <roomFrom value="1" />
+               <roomTo value="0" />
+               <flags value="0" />
+               <mirrorPriority value="0" />
+               <opacity value="0" />
+               <redm_loves_you_b5c65d165ac2a96a value="0.30000000" />
+               <redm_loves_you_77f55279e5bd37e2 value="1.00000000" />
+               <redm_loves_you_b35ecf068bc6b8e4 value="1.00000000" />
+               <redm_loves_you_e8f083f1ebc039d7 value="1.00000000" />
+               <audioOcclusion value="0" />
+               <corners content="vector3_array">
+			 	  	-2.25700500	-2.12344800	0.96217970
+					-2.25700600	-2.11932100	2.43215900
+					-2.25700600	-3.09561600	2.43215900
+					-2.25700500	-3.09733800	0.96217970
+				</corners>
+               <attachedObjects content="int_array">1</attachedObjects>
+            </Item>
+            <Item>
+               <roomFrom value="1" />
+               <roomTo value="0" />
+               <flags value="0" />
+               <mirrorPriority value="0" />
+               <opacity value="0" />
+               <redm_loves_you_b5c65d165ac2a96a value="0.30000000" />
+               <redm_loves_you_77f55279e5bd37e2 value="1.00000000" />
+               <redm_loves_you_b35ecf068bc6b8e4 value="1.00000000" />
+               <redm_loves_you_e8f083f1ebc039d7 value="1.00000000" />
+               <audioOcclusion value="0" />
+               <corners content="vector3_array">
+			   		-2.25440500	0.73870440	0.96216440
+					-2.25440400	0.73870420	2.43215900
+					-2.25440400	-0.23449140	2.43215900
+					-2.25440500	-0.23449090	0.96216440
+				</corners>
+               <attachedObjects content="int_array">2</attachedObjects>
+            </Item>
+            <Item>
+               <roomFrom value="1" />
+               <roomTo value="0" />
+               <flags value="0" />
+               <mirrorPriority value="0" />
+               <opacity value="0" />
+               <redm_loves_you_b5c65d165ac2a96a value="0.30000000" />
+               <redm_loves_you_77f55279e5bd37e2 value="1.00000000" />
+               <redm_loves_you_b35ecf068bc6b8e4 value="1.00000000" />
+               <redm_loves_you_e8f083f1ebc039d7 value="1.00000000" />
+               <audioOcclusion value="0" />
+               <corners content="vector3_array">
+			   		-2.25440400	2.76552500	0.20326230
+					-2.25440500	2.76552500	2.38134700
+					-2.25440500	1.67644400	2.38134700
+					-2.24677700	1.67644500	0.20326230
+				</corners>
+               <attachedObjects content="int_array">4</attachedObjects>
+            </Item>
+            <Item>
+               <roomFrom value="2" />
+               <roomTo value="1" />
+               <flags value="0" />
+               <mirrorPriority value="0" />
+               <opacity value="0" />
+               <redm_loves_you_b5c65d165ac2a96a value="0.30000000" />
+               <redm_loves_you_77f55279e5bd37e2 value="1.00000000" />
+               <redm_loves_you_b35ecf068bc6b8e4 value="1.00000000" />
+               <redm_loves_you_e8f083f1ebc039d7 value="1.00000000" />
+               <audioOcclusion value="0" />
+               <corners content="vector3_array">
+			   		-6.91133200	2.15663100	0.20326230
+					-6.91133300	2.15663100	2.41468800
+					-6.91133300	1.06581000	2.41468800
+					-6.91133200	1.06581000	0.20326230
+				</corners>
+               <attachedObjects content="int_array">3</attachedObjects>
+            </Item>
+         </portals>
+         <entitySets />
+         <timeCycleModifiers />
+      </Item>
+   </archetypes>
+   <name>bla_doctor</name>
+   <dependencies />
+   <compositeEntityTypes />
+</CMapTypes>

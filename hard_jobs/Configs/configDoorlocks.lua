@@ -1,0 +1,5 @@
+ConfigDoorlocks = {}
+
+ConfigDoorlocks.DoorList = {
+
+	}

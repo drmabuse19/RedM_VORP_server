@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="50.00000000"/>
+      <flags value="537001984" />
+      <loadFlags value="537001984" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.5112305" y="-0.03369141" z="-1.370605" />
+      <bbMax x="0.5112349" y="-0.024063956" z="1.370605" />
+      <bsCentre x="2.1755695e-06" y="-0.028877683" z="0.0" />
+      <bsRadius value="1.4628534" />
+      <hdTextureDist value="60.0"/>
+      <name>brontewindow</name>
+      <textureDictionary>brontewindow_ytd</textureDictionary>
+      <physicsDictionary>brontewindow</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>brontewindow</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>brontewindow_ytyp</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

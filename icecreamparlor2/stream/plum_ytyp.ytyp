@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="50.00000000"/>
+      <flags value="537001984" />
+      <loadFlags value="537001984" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.23215795" y="-0.27279517" z="-0.21220776" />
+      <bbMax x="0.234049" y="0.24709174" z="0.17602858" />
+      <bsCentre x="0.00094553083" y="-0.012851715" z="-0.018089592" />
+      <bsRadius value="0.39948678" />
+      <hdTextureDist value="60.0"/>
+      <name>plum</name>
+      <textureDictionary>plum_ytd</textureDictionary>
+      <physicsDictionary>plum</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>plum</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>plum_ytyp</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

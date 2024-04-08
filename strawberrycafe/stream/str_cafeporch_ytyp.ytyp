@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="299"/>
+      <flags value="0" />
+      <loadFlags value="0x0000000000000000" />
+      <specialAttribute value="0" />
+      <bbMin x="-8.206531" y="-6.4919744" z="-8.308224" />
+      <bbMax x="10.171981" y="4.0803657" z="3.2644522" />
+      <bsCentre x="0.98272514" y="-1.2058043" z="-2.5218859" />
+      <bsRadius value="12.077571" />
+      <hdTextureDist value="60.0"/>
+      <name>str_cafeporch</name>
+      <textureDictionary>str_cafeporch_ytd</textureDictionary>
+      <physicsDictionary>str_cafeporch</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>str_cafeporch</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>str_cafeporch_ytyp</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

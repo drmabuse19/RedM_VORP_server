@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="50.00000000"/>
+      <flags value="537001984" />
+      <loadFlags value="537001984" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.1748852" y="-0.32952005" z="-0.5207772" />
+      <bbMax x="0.27119738" y="0.32236174" z="0.37151095" />
+      <bsCentre x="0.04815609" y="-0.0035791546" z="-0.07463314" />
+      <bsRadius value="0.5958435" />
+      <hdTextureDist value="60.0"/>
+      <name>birdhouse1</name>
+      <textureDictionary>birdhouse_ytd</textureDictionary>
+      <physicsDictionary>birdhouse1</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>birdhouse1</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>birdhouse1_ytyp</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

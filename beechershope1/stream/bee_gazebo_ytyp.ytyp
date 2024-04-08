@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="299"/>
+      <flags value="0" />
+      <loadFlags value="0x0000000000000000" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.7453058" y="-2.8408237" z="-2.246256" />
+      <bbMax x="4.597721" y="2.8369102" z="4.399399" />
+      <bsCentre x="0.92620766" y="-0.0019567013" z="1.0765713" />
+      <bsRadius value="5.7079206" />
+      <hdTextureDist value="60.0"/>
+      <name>bee_gazebo</name>
+      <textureDictionary>bee_gazebo_ytd</textureDictionary>
+      <physicsDictionary>bee_gazebo</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_gazebo</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>bee_gazebo_ytyp</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

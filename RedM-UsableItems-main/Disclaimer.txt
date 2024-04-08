@@ -1,0 +1,34 @@
+--------------------------------------------------------------------------------
+----------------------------------- DevDokus -----------------------------------
+--------------------------------------------------------------------------------
+--------------------------------- RedM Stores ----------------------------------
+--------------------------------------------------------------------------------
+
+-- Instructions --
+Simply place the "DevDokus--UsableItems" in your resource
+folder and add it to your server.cfg. Add the following line.
+
+ensure DevDokus--UsableItems
+--------------------------------------------------------------------------------
+
+-- Requirements
+https://github.com/SirFreddie/fred_metabolism
+Version 1.0.0 is depending on Fred's Metabolism <br>
+script. This can change in a later update.
+--------------------------------------------------------------------------------
+
+-- Disclaimer --
+Although the basics of this plugin are finished, 
+i am still working on expanding it in the coming
+months. If you want to be able to upgrade to the 
+latest update, I would recommend leaving this 
+script unchanged. If you make changes, you have 
+to redo these changes if you update to the lates
+version of this script!
+
+Other than that you are free to use this script
+and make changes to it. Just make sure you put
+my name and GitHub link in your upload. 
+
+Have fun everyone :)
+--------------------------------------------------------------------------------

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="299"/>
+      <flags value="0" />
+      <loadFlags value="0x0000000000000000" />
+      <specialAttribute value="0" />
+      <bbMin x="-9.780762" y="-12.95508" z="-9.326172" />
+      <bbMax x="9.780762" y="12.95508" z="9.705078" />
+      <bsCentre x="0.0" y="0.0" z="0.18945312" />
+      <bsRadius value="18.81607" />
+      <hdTextureDist value="60.0"/>
+      <name>piergazebo</name>
+      <textureDictionary>piergazebo_ytd</textureDictionary>
+      <physicsDictionary>piergazebo</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>piergazebo</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>piergazebo_ytyp</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="50.00000000"/>
+      <flags value="73" />
+      <loadFlags value="73" />
+      <specialAttribute value="0" />
+      <bbMin x="-21.265095" y="-26.97886" z="-9.95598" />
+      <bbMax x="20.690176" y="27.112125" z="15.551794" />
+      <bsCentre x="-0.28745937" y="0.06663227" z="2.7979069" />
+      <bsRadius value="36.52645" />
+      <hdTextureDist value="60.0"/>
+      <name>circusexteriorrain</name>
+      <textureDictionary>circusexterior_ytd</textureDictionary>
+      <physicsDictionary>circusexteriorrain</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>circusexteriorrain</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>circusexteriorrain_ytyp</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

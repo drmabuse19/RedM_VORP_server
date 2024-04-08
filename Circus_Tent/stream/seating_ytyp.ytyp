@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="50.00000000"/>
+      <flags value="537001984" />
+      <loadFlags value="537001984" />
+      <specialAttribute value="0" />
+      <bbMin x="-14.845525" y="-21.14593" z="-1.3103733" />
+      <bbMax x="14.617651" y="19.132732" z="1.8744439" />
+      <bsCentre x="-0.1139369" y="-1.0065985" z="0.2820353" />
+      <bsRadius value="25.002962" />
+      <hdTextureDist value="60.0"/>
+      <name>seating</name>
+      <textureDictionary>seating_ytd</textureDictionary>
+      <physicsDictionary>seating</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>seating</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>seating_ytyp</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

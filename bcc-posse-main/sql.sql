@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS `posse` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `identifier` varchar(50) NOT NULL DEFAULT '0',
+  `characterid` varchar(50) NOT NULL DEFAULT '0',
+  `possename` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC;
+
+ALTER TABLE `characters` ADD COLUMN `posseid` INT(11) NULL DEFAULT 0;

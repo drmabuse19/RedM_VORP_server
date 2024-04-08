@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="50.00000000"/>
+      <flags value="73" />
+      <loadFlags value="73" />
+      <specialAttribute value="0" />
+      <bbMin x="-22.899586" y="-22.202412" z="-7.8091536" />
+      <bbMax x="19.602093" y="20.299267" z="3.7089083" />
+      <bsCentre x="-1.6487465" y="-0.9515724" z="-2.0501227" />
+      <bsRadius value="30.600046" />
+      <hdTextureDist value="60.0"/>
+      <name>bra_boathousedockrain</name>
+      <textureDictionary>bra_boathouse_ytd</textureDictionary>
+      <physicsDictionary>bra_boathousedockrain</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bra_boathousedockrain</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>bra_boathousedockrain_ytyp</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

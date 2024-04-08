@@ -1,0 +1,33 @@
+@font-face {
+  font-family: westernFont;
+  src: url(../fonts/rdrlino-regular-webfont.woff);
+}
+
+@font-face {
+  font-family: westernFont;
+  src: url(../fonts/rdrlino-regular-webfont.woff);
+  font-weight: normal;
+}
+
+* {
+  font-family: westernFont;
+  box-sizing: inherit;
+  touch-action: manipulation;
+}
+
+body {
+  background-color: transparent;
+}
+
+#info {
+  position: absolute;
+  bottom: 45px;
+  left: 400px;
+  width: 200px;
+  height: 5px;
+}
+
+#jobinfo {
+  color: white;
+  font-size: 0.8vw;
+}

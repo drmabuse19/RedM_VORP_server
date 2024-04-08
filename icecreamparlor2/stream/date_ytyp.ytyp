@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="50.00000000"/>
+      <flags value="537001984" />
+      <loadFlags value="537001984" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.099684104" y="-0.06851936" z="-0.045455612" />
+      <bbMax x="0.07810723" y="0.068224475" z="0.061538495" />
+      <bsCentre x="-0.010788437" y="-0.00014744326" z="0.008041441" />
+      <bsRadius value="0.124254145" />
+      <hdTextureDist value="60.0"/>
+      <name>date</name>
+      <textureDictionary>dates_ytd</textureDictionary>
+      <physicsDictionary>date</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>date</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>date_ytyp</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

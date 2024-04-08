@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="299"/>
+      <flags value="0" />
+      <loadFlags value="0x0000000000000000" />
+      <specialAttribute value="0" />
+      <bbMin x="-15.593242" y="-13.943077" z="-7.011488" />
+      <bbMax x="16.68061" y="10.924784" z="6.4235153" />
+      <bsCentre x="0.5436845" y="-1.5091467" z="-0.29398632" />
+      <bsRadius value="21.45059" />
+      <hdTextureDist value="60.0"/>
+      <name>caligahall_ext</name>
+      <textureDictionary>caligahall_ext_ytd</textureDictionary>
+      <physicsDictionary>caligahall_ext</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>caligahall_ext</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>caligahall_ext_ytyp</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

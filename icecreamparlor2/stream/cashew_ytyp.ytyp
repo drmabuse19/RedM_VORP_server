@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="50.00000000"/>
+      <flags value="537001984" />
+      <loadFlags value="537001984" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.06477116" y="-0.0651736" z="-0.06695862" />
+      <bbMax x="0.03735337" y="0.07476478" z="0.0722868" />
+      <bsCentre x="-0.013708895" y="0.0047955886" z="0.0026640892" />
+      <bsRadius value="0.11113219" />
+      <hdTextureDist value="60.0"/>
+      <name>cashew</name>
+      <textureDictionary>cashew_ytd</textureDictionary>
+      <physicsDictionary>cashew</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>cashew</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>cashew_ytyp</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

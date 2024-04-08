@@ -1,0 +1,115 @@
+﻿{
+  "defaultlang": "En",
+  "KeyToEnter": "0xC7B5340A",
+  "CloseDoors": false,
+
+  "Doors": [
+    //SAINT DENIS
+    [ 2685.7612304688, -1359.5030517578, 47.215068817139, 130.31652832031 ],
+    [ 2686.4736328125, -1360.3505859375, 47.215072631836, 130.13496398926 ],
+    [ 2689.6804199219, -1364.1772460938, 47.215209960938, 129.9937286377 ],
+    [ 2688.9660644531, -1363.3248291016, 47.215187072754, 129.9937286377 ],
+    //BLACKWATER
+    [ -786.05645751953, -1361.9763183594, 42.90970993042, 270.23913574219 ],
+    [ -786.05645751953, -1363.3400878906, 42.90970993042, 90.19100189209 ]
+  ],
+
+  "Cinemas": [
+    {
+      "Name": "Saint Denis Cinema",
+      "NPCModel": "A_F_M_ARMTOWNFOLK_01",
+      "BlipIcon": 103490298,
+      "EnterCinema": [ 2685.92, -1362.85, 48.21, 2.0 ],
+      "ExitCinema": [ 2688.38, -1360.57, 48.22, 2.0 ],
+      "AnimationCoord": [ 2683.33, -1364.82, 47.5 ],
+      "Price": 3.5,
+      "NPCCinema": [ 2686.83, -1362.12, 48.21, 136.17 ],
+      "CinemaScreen": {
+        "Coords": [ 2702.49, -1348.78, 49.61 ],
+        "Rotation": [ 0.0, 0.0, 130.1 ]
+      },
+      "Listings": [
+        {
+          "Name": "The Bear",
+          "MovieID": "PL_MLAN_BEAR",
+          "HourOfDay": 6,
+          "MinuteOfDay": 28,
+          "MinutesToClose": 0,
+          "Announce": true
+        },
+        {
+          "Name": "Ghost story",
+          "MovieID": "PL_MLAN_GHOST_STORY",
+          "HourOfDay": 14,
+          "MinuteOfDay": 0,
+          "MinutesToClose": 5,
+          "Announce": true
+        },
+        {
+          "Name": "Modern medicine",
+          "MovieID": "PL_TOON_MODERN_MEDICINE",
+          "HourOfDay": 16,
+          "MinuteOfDay": 0,
+          "MinutesToClose": 5,
+          "Announce": true
+        },
+        {
+          "Name": "The secrets of flight",
+          "MovieID": "PL_MLAN_SECRET_OF_MANFLIGHT",
+          "HourOfDay": 18,
+          "MinuteOfDay": 0,
+          "MinutesToClose": 5,
+          "Announce": true
+        }
+      ]
+    },
+    {
+      "Name": "BlackWater Cinema",
+      "NPCModel": "A_F_M_ARMTOWNFOLK_01",
+      "BlipIcon": 103490298,
+      "EnterCinema": [ -788.57, -1362.66, 43.82, 2.0 ],
+      "ExitCinema": [ -784.19, -1362.58, 44.21, 2.0 ],
+      "AnimationCoord": [ -794.2, -1359.5, 43.76 ],
+      "Price": 2.5,
+      "NPCCinema": [ -789.8, -1362.68, 43.82, 274.55 ],
+      "CinemaScreen": {
+        "Coords": [ -772.29, -1362.65, 45.32 ],
+        "Rotation": [ 0.0, 0.0, 90.0 ]
+      },
+      "Listings": [
+        {
+          "Name": "Saviors and savages",
+          "MovieID": "PL_MLAN_SAVIORS_AND_SAVAGES",
+          "HourOfDay": 4,
+          "MinuteOfDay": 39,
+          "MinutesToClose": 5,
+          "Announce": true
+        },
+        {
+          "Name": "Damnation Direction",
+          "MovieID": "PL_TOON_DIRECT_CURRENT_DAMNATION",
+          "HourOfDay": 14,
+          "MinuteOfDay": 0,
+          "MinutesToClose": 5,
+          "Announce": true
+        },
+        {
+          "Name": "Josiah, Blackwater",
+          "MovieID": "PL_MLAN_JOSIAH_BLACKWATER",
+          "HourOfDay": 16,
+          "MinuteOfDay": 0,
+          "MinutesToClose": 5,
+          "Announce": true
+        },
+        {
+          "Name": "Farmer's daughter",
+          "MovieID": "PL_TOON_FARMERS_DAUGHTER",
+          "HourOfDay": 18,
+          "MinuteOfDay": 0,
+          "MinutesToClose": 5,
+          "Announce": true
+        }
+      ]
+    }
+  ]
+}

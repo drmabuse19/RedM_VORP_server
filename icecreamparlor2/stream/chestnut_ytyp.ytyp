@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="50.00000000"/>
+      <flags value="537001984" />
+      <loadFlags value="537001984" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.093584016" y="-0.05048647" z="-0.044952758" />
+      <bbMax x="0.09382162" y="0.053113513" z="0.04688482" />
+      <bsCentre x="0.00011880323" y="0.0013135206" z="0.0009660311" />
+      <bsRadius value="0.116498895" />
+      <hdTextureDist value="60.0"/>
+      <name>chestnut</name>
+      <textureDictionary>chestnut_ytd</textureDictionary>
+      <physicsDictionary>chestnut</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>chestnut</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>chestnut_ytyp</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

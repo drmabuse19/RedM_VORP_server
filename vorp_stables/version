@@ -1,0 +1,14 @@
+<1.2>
+  -Bug fixes
+  -Added jobs support to match the C# version features
+  -Added options to ignore the inventory stack limit
+  -Added Feature and options to lead the horse when dismounted
+<1.1>
+  -Fixed a bug where inventory would not register correctly for newly bought horses
+  -Fixed a crash
+  -Fixed a bug where rides would spawn too far away from the player
+  -Fixed a bug in database entries formatting
+  -Added the option to configure keys to call horse an carts
+  -Added the SQL script for fresh starters
+  -Added the possibility to remove equipment from a horse in stables
+<1.0>

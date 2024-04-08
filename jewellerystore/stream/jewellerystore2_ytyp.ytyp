@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="50.00000000"/>
+      <flags value="537001984" />
+      <loadFlags value="537001984" />
+      <specialAttribute value="0" />
+      <bbMin x="-7.46361" y="-3.5336063" z="-0.60067934" />
+      <bbMax x="3.381604" y="2.9742012" z="0.89557767" />
+      <bsCentre x="-2.0410032" y="-0.27970254" z="0.14744917" />
+      <bsRadius value="6.3680654" />
+      <hdTextureDist value="60.0"/>
+      <name>jewellerystore2</name>
+      <textureDictionary>jewellerystore2_ytd</textureDictionary>
+      <physicsDictionary>jewellerystore2</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jewellerystore2</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>jewellerystore2_ytyp</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

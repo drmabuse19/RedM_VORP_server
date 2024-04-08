@@ -1,0 +1,15 @@
+Locales["ro_lang"] = {
+    RobberyStart = 'Jaful a Inceput!',
+    OnCooldown = 'Acesta a fost jefuit recent!',
+    LootMarked = 'Incepe Jefuirea!',
+    HoldOutBeforeLooting = 'Asteapta',
+    HoldOutBeforeLooting2 = 'Minute Inainte de Jefuire',
+    RobberyFail = 'Jaf Esuat!',
+    Rob = 'Sparge Seiful',
+    Robbery = 'Seif',
+    PickFailed = 'Din pacate jaful a luat sfarsit, ai stricat lockpick-ul',
+    RobberyEnable = 'Jafurile sunt activate, trageti cu arma intr-o locatie valida pentru a Incepe un jaf!',
+    RobberyDisable = 'Jafurile Dezactivate',
+    WrongJob = 'Nu poti jefui din cauza jobului tau!',
+    youTook = 'Ai luat ~o~',
+}

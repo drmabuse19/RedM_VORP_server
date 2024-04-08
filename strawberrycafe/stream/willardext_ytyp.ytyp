@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="299"/>
+      <flags value="0" />
+      <loadFlags value="0x0000000000000000" />
+      <specialAttribute value="0" />
+      <bbMin x="-7.5696516" y="-7.9204655" z="-7.2253356" />
+      <bbMax x="7.1405635" y="7.3294234" z="4.7270007" />
+      <bsCentre x="-0.21454406" y="-0.29552102" z="-1.2491674" />
+      <bsRadius value="12.16355" />
+      <hdTextureDist value="60.0"/>
+      <name>willardext</name>
+      <textureDictionary>willardext_ytd</textureDictionary>
+      <physicsDictionary>willardext</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>willardext</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>willardext_ytyp</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>
